@@ -1,0 +1,120 @@
+path,file_type,size,sha256,purpose,generated_source,suspected_stale,duplicate,legacy,candidate_role
+.env.example,.example,134,6585429fa3ec1fa9c5c0bc25669671b3a602e2156936e8fb0cfbe85bf4217e4c,project asset,source,False,False,False,exclude
+.github/workflows/ci.yml,.yml,478,993c5b92ea0b0e288a40d35df957c7c6031284fda1ff4a5e1c9374c6c2661cfa,configuration or manifest,source,False,False,False,exclude
+.github/workflows/docker-build.yml,.yml,333,a7dec601a657008d9d264028c7a18c64e8ded1378557b91a79b8445dd7b06793,configuration or manifest,source,False,False,False,exclude
+.gitignore,none,405,1e33668fd3f9b9caac79f52f558bca8350336368ee1cb51508caeadee7a1737a,project asset,source,False,True,False,exclude
+AUDIT_REPORT.md,.md,6890,c187f289768832b2b177c787d8d8b6580f7ca756fdbfb13dca77cf7d776c31c0,documentation,source,False,False,False,exclude
+BTL_XuLyAnh_NhanDienHoa.ipynb,.ipynb,32806,ff770acc5e9d618771090a252c97b454ead81a119fc3e456085282c3cc50963f,executable notebook,source,False,False,False,exclude
+Dockerfile,none,185,70bd3d6f59b91e7e043dceb876b1f7811fe0354809d13374b2d7d22422cfa71d,project asset,source,False,False,False,exclude
+LICENSE,none,1098,b6670f1c478e6d174be8a5193200c3bdfba6f55f15fcecae74be5d3162f48524,project asset,source,False,True,False,exclude
+QUALITY_REPORT.md,.md,5580,ef61fe0b87bc9d425d60d159f61474361df5fd801c7cd827cfe19ce147d10759,documentation,source,False,False,False,exclude
+README.md,.md,15636,d329483c5bdf0ff9388805c3cebf75e04c7f90dadd4b743c812bda22449d9a6a,documentation,source,False,False,False,documentation/layout candidate
+backend/Dockerfile,none,371,55c23dddcb813fcd7c9b689e9f1e2eeaf7605bd2d76815965a18e4629b5355d3,project asset,source,True,False,True,exclude
+backend/app/__init__.py,.py,31,e991845fd90e93c6ef9308f3f2b3e674fa5844510fd072fb4bde28cd6e8eb26a,source or build script,source,True,False,True,exclude
+backend/app/config.py,.py,585,ca5439f7ee9d74bbee93367a8b7a5c40aac703f1e6290d020e5ebe0b6b40310f,source or build script,source,True,False,True,exclude
+backend/app/main.py,.py,646,4c898f95a8ac49f3a7ccc6b5a343f914122f6799364fd7f9ece3f9f522bd007b,source or build script,source,True,False,True,exclude
+backend/app/routers/__init__.py,.py,19,1f54ad6d81835514ba83e264dd451fd7b89b033d4af0851adbb35f3cc91a36b0,source or build script,source,True,False,True,exclude
+backend/app/routers/health.py,.py,558,78fa3ef030da74fb8d3a918fcdb2ba1a9da05cdecb4c1986e4439b8f6cc1d03b,source or build script,source,True,False,True,exclude
+backend/app/routers/prediction.py,.py,3446,ace56d1bc85dcb933be435f7f4878ca9915b5501a1785061b3df4d1ab9b834e3,source or build script,source,True,False,True,exclude
+backend/app/schemas.py,.py,546,bb42f0e8049d1d0142196d437360734db4c1e63fe3b9b280e82311c0d4fede67,source or build script,source,True,False,True,exclude
+backend/app/services/__init__.py,.py,24,d85292a8e96c3fa7ac9d389c5c3832d77a225b1c382c8e96d217135e954b6201,source or build script,source,True,False,True,exclude
+backend/app/services/image_service.py,.py,1022,1b93274625246838ffb71c6bf6f2ae0efca9520ab9faa98bf3a5f686154b3dde,source or build script,source,True,False,True,exclude
+backend/app/services/model_service.py,.py,734,49b9de5b2c65de71069a9e348e0634a557c8c0e42f4bbfc57155e2f5a4fff95f,source or build script,source,True,False,True,exclude
+backend/requirements.txt,.txt,144,dc8f089ab064c47949ec0cb294f62fe5d894f27474da6f4c69caf07c7c29b0d6,documentation,source,True,False,True,exclude
+backend/tests/__init__.py,.py,28,98ac779ee447640914baa754565e62e2bab82a71ec806d665edfa1fc7afabac6,automated test,source,True,False,True,exclude
+backend/tests/test_health.py,.py,673,8fde86244375e56fc38102bc42e1ca6a9f73882b5d7e3b82a7051587804bf9a3,automated test,source,True,False,True,exclude
+configs/degradation.yaml,.yaml,698,d8a903313551b75c59b8c9dab7c3b07dbbe75312a06fae203ccff1f14136e0ae,configuration or manifest,source,False,True,False,exclude
+configs/deployment.yaml,.yaml,216,3f7f123f9855176dd43fa77b65745098cf901cfc828db9344044cf24bf95c3b3,configuration or manifest,source,False,False,False,exclude
+configs/experiment.yaml,.yaml,736,fd8dd70aa1fa93c36340302abc4dcd1c7ad1710ad42a6b578160043d16dd41e9,configuration or manifest,source,False,True,False,exclude
+data/README.md,.md,398,0f07b139db3487e0f87b0787e6d53a1137bdc617abe4315bb545f0a3d584355c,documentation,source,False,False,False,documentation/layout candidate
+docker-compose.yml,.yml,681,8de8e21a90919d4658b74f243e308f098a135f05ce78cc2dcf06a03192143279,configuration or manifest,source,True,False,True,exclude
+docs/API.md,.md,3223,a07fb9563616d1bb53cdaf1b9132d45897f1af31e692aea3efacce6ff67001aa,documentation,source,False,False,False,documentation/layout candidate
+docs/Bao_cao_BTL_XuLyAnh_NhanDienHoa.docx,.docx,2146000,ea199aacb52d3a0c045644a4e1ec7a6e9d7af72602e86abab15082034f06d268,submission document,generated,False,False,False,documentation/layout candidate
+docs/Bao_cao_BTL_XuLyAnh_NhanDienHoa.pdf,.pdf,3225323,4ca17f1237b5acbc67941068fd1fc7b05dbc6b3b964b144c3fc96c461a8e5f95,submission document,generated,False,False,False,documentation/layout candidate
+docs/DEPLOYMENT.md,.md,5082,82c0869ea042166f9ef3403ada18468357d469f9ee01628e0d7c5f425753c367,documentation,source,False,False,False,documentation/layout candidate
+docs/EXPERIMENTS.md,.md,2522,cfd9148aef1b0f0d46ddb873928ac681e3dd060539e5246a083448884d894509,documentation,source,False,False,False,documentation/layout candidate
+docs/GITHUB_SETUP.md,.md,1536,5124bb71d8f00ab92033cb274b3d43906d433bb14b19c2cb00444befc7abe173,documentation,source,False,False,False,documentation/layout candidate
+docs/PHAN_CONG_NHOM.md,.md,9299,705556b93dd51fdcc8ffbb0f6e166663566efbfa595e04532482e71b5c307bab,documentation,source,False,False,False,documentation/layout candidate
+docs/Phan_cong_cong_viec_3_thanh_vien.docx,.docx,44912,34c398a01cd3f6f0321307c7c4f2be4ac46dc5fd3dc434aa32d90eb5e2fd5f38,submission document,generated,False,False,False,documentation/layout candidate
+docs/Phan_cong_cong_viec_3_thanh_vien.pdf,.pdf,216706,6770bf24aa3c3a78150efa0121aed9b63a061360cac5f4e489aaf31f70fbb1e8,submission document,generated,False,False,False,documentation/layout candidate
+docs/Phan_cong_cong_viec_3_thanh_vien.xlsx,.xlsx,23698,1d521ee5fc26dfd461d0b53cd749c607a1771d6ece21daca997929de855aab4e,submission document,generated,False,False,False,documentation/layout candidate
+docs/Slide_BTL_XuLyAnh_NhanDienHoa.pptx,.pptx,1879697,9c5d3b518292617d2786e75a6b7aec98c6d1cbdc1a48ff4303e2c5d921ec6e9a,submission document,generated,False,False,False,documentation/layout candidate
+figures/classification/delta_e_comparison.png,.png,62462,eea1519505e5c929dae34be0c2872610ab9ce6018238bcb6f3ebabd17693689e,generated evidence,generated,False,True,False,exclude
+figures/classification/edge_preservation.png,.png,164566,1e863f859c6261c9d01937d488c2babe53b67d34d347fa5427826f3e3b6a6dd4,generated evidence,generated,False,True,False,exclude
+figures/classification/psnr_comparison.png,.png,160382,38b1bbe632f6115843ecea1cbc50d6175a33a40f4dc34ea66058f324fdf68fdb,generated evidence,generated,False,True,False,exclude
+figures/classification/ssim_comparison.png,.png,154265,e1eeef99fe1a6cb93a9126acbe298792e99de88202012b96c5d461c6c509845a,generated evidence,generated,False,True,False,exclude
+figures/degradation/degradation_grid.png,.png,307506,36a6185cac9a45ab1036393dfb19bfe0d94b27750b1b5b4ef50b8651d9a8b667,generated evidence,generated,False,True,False,exclude
+figures/deployment/README.md,.md,263,0e4a956986c39ee5ab767472f7cc19c0951aa9214249b84775bd70a336225ed4,generated evidence,generated,False,False,False,documentation/layout candidate
+figures/eda/aspect_ratio_distribution.png,.png,62148,d59f9c812b7abec3b3f04f723204b6301ecd1ae9cdce7fd56f885d5741e0711d,generated evidence,generated,False,True,False,exclude
+figures/eda/brightness_distribution.png,.png,73874,4ecd7e1a9dde2620e8a7f8c9f9582cdaa2689b3f6d96901fcf4f7ea27dd3927b,generated evidence,generated,False,True,False,exclude
+figures/eda/class_distribution.png,.png,40425,364dddfc151ff32803b36bf857e8cc43e01ee9788000d75c333fbfe00ed9dce9,generated evidence,generated,False,True,False,exclude
+figures/eda/contrast_distribution.png,.png,62337,90e5adeea0a6bc24d404cb7ec5bd9de9da4754f57e23f41e3f7e8f7df50e7b00,generated evidence,generated,False,True,False,exclude
+figures/eda/edge_density_distribution.png,.png,63171,3ae7df0b5b31a42cef243ab341254273443e62bde2381500e2a0979d0e92803b,generated evidence,generated,False,True,False,exclude
+figures/eda/hsv_distribution.png,.png,80993,f7285f4a545e3b8597896a4ddbe8a04bdd7234f83cec060f4c2b622e52cb0be0,generated evidence,generated,False,True,False,exclude
+figures/eda/image_height_distribution.png,.png,61416,04f386e7b046bed512b77cabd1ab96bae1fb25481a5c3c2952d16a8f25cf82ac,generated evidence,generated,False,True,False,exclude
+figures/eda/image_width_distribution.png,.png,63814,7fd206e8a83cd56d0b60d74a8deef7028c89709758ca8165a7a4584f731a34d2,generated evidence,generated,False,True,False,exclude
+figures/eda/lab_distribution.png,.png,85900,b84ea815e0f51a82245a9fba2d32cfcf28895c74b33bcafd1d6e0a357c109b60,generated evidence,generated,False,True,False,exclude
+figures/eda/rgb_histogram.png,.png,76847,590500d1a80fe162e7632bd694e978ae81b4ef04e65ccaa40bc3bbfac2284d98,generated evidence,generated,False,True,False,exclude
+figures/eda/sample_classes.png,.png,666239,e24fb0362b3b2def18df3366a91afb2a595aca7e42ad7ae9c26b33b8a5a1db81,generated evidence,generated,False,True,False,exclude
+figures/enhancement/color_space_comparison.png,.png,87866,9d6f1cd64e4670c1812f1ad473af40f573cc184f0fbb626d0ae84c79404d354a,generated evidence,generated,False,True,False,exclude
+figures/enhancement/enhancement_grid.png,.png,324931,b41bb0709edb0623a139458246158d9910ecb69e5f71598ec5c68a1d4c8085e3,generated evidence,generated,False,True,False,exclude
+figures/error_analysis/README.md,.md,252,31614a175ab33e0afd151d9b8460d98f810b47f5e41350f1f9f0267e0ec519fd,generated evidence,generated,False,True,False,documentation/layout candidate
+frontend/Dockerfile,none,278,942850c06cc476ed1c7fe7a1c32c3e4699783355c7f12bd63d2a914d889af2c1,project asset,source,True,False,True,exclude
+frontend/app.py,.py,2601,ae847b4418c1afcb3dd19de187eb3bde6c3f1ba215d0725c38349451ecf4baa9,source or build script,source,True,False,True,exclude
+frontend/components/__init__.py,.py,40,061496db478792bac6a11f3f76a7526d7044e8eac50ecbf3391972a09f30ac29,source or build script,source,True,False,True,exclude
+frontend/components/charts.py,.py,587,2d4a414762edf67869dede9e8f4b671f9da435cc525f21f15a0584b29e591a7c,source or build script,source,True,False,True,exclude
+frontend/components/image_panel.py,.py,517,1bde5d40244233c1c9543645e1466d61b84cfff6f7279118f862f1071eea81ca,source or build script,source,True,False,True,exclude
+frontend/components/prediction_panel.py,.py,540,3329f1d89a0d81dde21d540b60a999efc629aae7c282cb16be4c0ee61c99db6c,source or build script,source,True,False,True,exclude
+frontend/components/sidebar.py,.py,1197,824897ec686ab2e9f1c3213af8e415da1aa9f60d679500997099affd4de34a8f,source or build script,source,True,False,True,exclude
+frontend/requirements.txt,.txt,56,e03c99167c41d8373cbbc781fd015affb5f7f73af7d1c61a30029816e79ebdce,documentation,source,True,False,True,exclude
+models/class_names.json,.json,68,767aad2065eff85413aa7ca562ef5ef7a3840f6236dbefd94f0f3177b1662ad4,configuration or manifest,source,False,True,False,exclude
+models/model_metadata.json,.json,442,c533af8a1172312940cbfbbedd1b434a75a8cd63955d58d4f78c16f2e2b5c75b,configuration or manifest,source,False,False,False,exclude
+pyproject.toml,.toml,483,36f8617ff8c0f22b0ad97891d98ab4f60be105addbf3997467c87c58d4780898,configuration or manifest,source,False,False,False,exclude
+requirements-dev.txt,.txt,87,b1e6397551e7ac6926461151a89ab0721c55080049141c89417db0ace8013bca,documentation,source,False,True,False,exclude
+requirements.txt,.txt,194,64aa93142b19a1f98a0027ac618d375542df78ff3302cb37f7d73f9c3f1df42f,documentation,source,False,False,False,exclude
+results/README.md,.md,975,3b6e2abe91e56cd4b9e965161f829d04a62bab9963de9ca647747db2b4cb0637,generated evidence,generated,False,False,False,documentation/layout candidate
+results/assignment_a11y_audit.json,.json,5942,e788495b1c2d09463d9bcee822aef51f727a18dba88f0c1eb5dd6f679442d8f7,generated evidence,generated,False,False,False,exclude
+results/assignment_workbook_inspect.ndjson,.ndjson,163991,215da4feaeaa5f9c1208bc4d37b5a3ca37c0df378a3aa615dff80d7ac84db8e1,generated evidence,generated,False,False,False,exclude
+results/cross_artifact_consistency.json,.json,291,270dabc922590134e354190f4a41c011ff194d7f5cff472bc24a9028538094be,generated evidence,generated,False,False,False,exclude
+results/data_validation.json,.json,3194,441ce3725da31b46d6f64b0fe8f0d3245c2f909087c02012034746cd31ce344d,generated evidence,generated,False,True,False,exclude
+results/dataset_inventory.csv,.csv,796692,e462720995489f5ce62c88f81d33b4a407ca99283622d283a189739a57b1d756,generated evidence,generated,False,False,False,exclude
+results/dataset_summary.csv,.csv,452,8dc5d3d2120db3672c3c57a335268fb989a1fa9f49d55d10db1c32a40ee561ea,generated evidence,generated,False,True,False,exclude
+results/eda_sample_metrics.csv,.csv,39427,1b4324fd20b650917621d69fcea21d79fe2216fa4e9300d69b91d944e0527bdf,generated evidence,generated,False,True,False,exclude
+results/image_quality_results_49_conditions.csv,.csv,9899,ff789b186a3d39f34c59da071ba97677a8a9c4fa220312c70b6395559e2ce607,generated evidence,generated,False,True,False,exclude
+results/project_validation.json,.json,447,5aaf293d83a4561ccf5b7f920c4f3fbdfcc4c1c78d86ad076d4d9ee069ce7d91,generated evidence,generated,False,False,False,exclude
+results/report_a11y_audit.json,.json,1703,2a0bc00feeb7d596ac933ddd782a50616da24d85e94c43edbb2a05f88ede1466,generated evidence,generated,False,False,False,exclude
+results/slide_inspect.ndjson,.ndjson,61281,d94f97e28ab3e8f8ca382006891541bbac275e72a071cbab556aba8060cf87bc,generated evidence,generated,False,False,False,exclude
+results/slide_template_fidelity.json,.json,217,518d1969b224388f540414ba5c563d05e7588130e4dd34ec25bb89960a317814,generated evidence,generated,False,False,False,exclude
+results/slide_template_plan.json,.json,258,7e591fb4eeb5bba3f569b6de5069b79dd3f14787ee120c611e26c26820a9373b,generated evidence,generated,False,False,False,exclude
+scripts/build_documents.py,.py,136454,a09a27b0dd19900200725ab8e6410cab703263f88df8d03e2d2e911ea666677d,source or build script,source,False,False,False,exclude
+scripts/build_notebook.py,.py,27171,b02953a0f3772687b7fc5316792b66b91e1cfd8c18e71ac7c80872ff61a39dc6,source or build script,source,False,False,False,exclude
+scripts/check_notebook.py,.py,1010,449041736999212147de37d5faf8bb16f1f94b2e1c49c0cc371fb45cf745c98f,source or build script,source,False,False,False,exclude
+scripts/generate_eda.py,.py,3301,ff232bb65cb03e16c0bcebc156f85a4966df8a6935325e23e530f2b117ccd2e0,source or build script,source,False,False,False,exclude
+scripts/run_quality_experiment.py,.py,4045,48c77e024fc14aad1f93bd8acf698baed4d5f345aa04eb9e7da54e42737a32c1,source or build script,source,False,False,False,exclude
+scripts/validate_project.py,.py,1745,392fadbc86a6bfa0de6acb6b5f41b7797fa770ff0b16c27c9b2ab613f3f48182,source or build script,source,False,False,False,exclude
+splits/test.csv,.csv,70255,1ca5ed168c0c5ad5c10fbc5b7d239f61b92bd1baccac60d99d1569623c735247,project asset,source,False,True,False,exclude
+splits/train.csv,.csv,327969,0c54b4ad94470f1875fac16d06901cb04fa1f2aa3a2fde99d566811616184510,project asset,source,False,True,False,exclude
+splits/validation.csv,.csv,70274,d7d14c89b2fb0f63efed0aa15eb0b6e0135bc2d6f355679b1ad59193827d89e5,project asset,source,False,True,False,exclude
+src/__init__.py,.py,183,db54fde086754decbc4f2cbea2474533bea221632cfc59afd43e4e61291bcc23,source or build script,source,False,True,False,exclude
+src/classification_metrics.py,.py,2037,e3caf04fdb6d4d0c34c53e88904ba6bafaa10fd5d56cb69e3ac31da933a62743,source or build script,source,False,False,False,exclude
+src/color_spaces.py,.py,1295,b1fb68605b36d23a0c17e0df5df7f4db5c3d75bde599b995f580bd225a12db36,source or build script,source,False,True,False,exclude
+src/config.py,.py,1806,c4189192b0b0c1ac6ff7a6715c9775f0b69e3369da669708e12cc87ed4dc152a,source or build script,source,False,True,False,exclude
+src/data_loader.py,.py,1354,6cd2538f59d21459ad3a84127c2a51a762c3cef1af9c11c2a74eef344a4246a2,source or build script,source,False,False,False,exclude
+src/data_split.py,.py,1827,19f8d6924a8240df439a2e4c07567de802dc5f095962fdb34db3efce0a26b5dc,source or build script,source,False,True,False,exclude
+src/data_validation.py,.py,2972,be5623d2534b08e0661651d6155095677f6d707d3750bfa01a199ec910ba77c4,source or build script,source,False,False,False,exclude
+src/degradations.py,.py,2005,a915d1f21bf81039e45a3e73833c6c4d929200a5773620c9f71f74ff618a3918,source or build script,source,False,False,False,exclude
+src/enhancements.py,.py,4861,b125b7330179dc5aec62461345c596fe3689e9f3e3386be1edcce36dcb66ecbd,source or build script,source,False,False,False,exclude
+src/error_analysis.py,.py,4638,bd59ae2aa61ade5da0db41c1504185d0c4cc2799b6c0c0465801d6334107fcb2,source or build script,source,False,False,False,exclude
+src/evaluate.py,.py,3657,934cecd2f12a07fb5390ed8317e33cb75ca2cf62af7ff26f5eca50998c0a59ae,source or build script,source,False,False,False,exclude
+src/image_metrics.py,.py,4503,c4caa7981150e514da9a2193d865df182a3b67618e18d7c18995bfe906e0cdd4,source or build script,source,False,False,False,exclude
+src/inference.py,.py,1376,31f3a97aa9605df54c2a50e2d4d8bd9ecb1e8f2988ee71e4cf6bb712f1a46fa4,source or build script,source,False,False,False,exclude
+src/model.py,.py,1366,f9f97f86b09293eab7427581fb28c6f79ba819ff190231b0a2afaa7a6480b9c2,source or build script,source,False,True,False,exclude
+src/train.py,.py,1341,4a0e99f53433c08c4d0c52497902b42acf3c8caa04e0c604be7c98a271396ca2,source or build script,source,False,False,False,exclude
+src/tuning.py,.py,2922,a3667031ec56bb2f8d1939dc7c29e5f7314ecf5e3bba27e6ff0da7922872ecba,source or build script,source,False,False,False,exclude
+src/visualization.py,.py,939,7ebbbcdf87beb3815ddfc0679c21985e93c07fbe84061f62554b9d989108f853,source or build script,source,False,True,False,exclude
+tests/test_api.py,.py,550,9f633cc4d96f848cf493de279bc93ca83fdfbb22b88257c3f4f831d1dc80f32f,automated test,source,False,False,False,exclude
+tests/test_data_split.py,.py,831,2842ed1e3ccd8029fd1f53e399850a8dad2467b1032d6f5664a5999ce53215e9,automated test,source,False,True,False,exclude
+tests/test_degradations.py,.py,1414,21fd62b5942f74b896ddd6fa4f3965bae479fccd59d3312e613eed5fb0c8543c,automated test,source,False,True,False,exclude
+tests/test_enhancements.py,.py,898,05a6bf971ada2bce7eac991d5db4061d740e204a9c8e2a14b38a8abc03fd30f6,automated test,source,False,True,False,exclude
+tests/test_experiment_matrix.py,.py,254,e5d49464ef0dd68b2830d461d888ce5d794e3432860040613fe4fd79da91c6c9,automated test,source,False,False,False,exclude
+tests/test_metrics.py,.py,498,82ae916fb1ac6550f65ced823cac86572a15a722e2f13cb95d61367c1f3f95aa,automated test,source,False,False,False,exclude

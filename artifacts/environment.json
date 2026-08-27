@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-08-27T08:44:20.413779+00:00",
+  "python": "3.11.16",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "opencv": "5.0.0",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scikit_learn": "1.9.0",
+  "cpu": "x86_64",
+  "gpu_devices": [
+    "/physical_device:GPU:0"
+  ],
+  "cuda_build": "12.5.1",
+  "cudnn_build": "9",
+  "seed": 42,
+  "command": "scripts/run_full_pipeline.py --skip-train",
+  "duration_seconds": 1409.051711344,
+  "git_commit": "not_available_no_git_repository"
+}

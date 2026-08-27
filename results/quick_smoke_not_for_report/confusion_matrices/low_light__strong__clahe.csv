@@ -1,0 +1,6 @@
+,daisy,dandelion,roses,sunflowers,tulips
+daisy,1,0,0,1,0
+dandelion,1,0,0,0,1
+roses,0,0,0,2,0
+sunflowers,0,0,0,2,0
+tulips,0,1,0,1,0

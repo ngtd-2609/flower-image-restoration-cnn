@@ -1,0 +1,162 @@
+{
+  "_metadata": {
+    "selection_split": "validation",
+    "metric": "macro_f1",
+    "tie_break_1": "ssim",
+    "tie_break_2": "latency_ms_per_image",
+    "seed": 42,
+    "candidate_grid": {
+      "gamma_correction": [
+        {}
+      ],
+      "clahe": [
+        {
+          "clip_limit": 1.5
+        },
+        {
+          "clip_limit": 2.0
+        },
+        {
+          "clip_limit": 2.5
+        }
+      ],
+      "gaussian_filter": [
+        {
+          "sigma": 0.7
+        },
+        {
+          "sigma": 1.0
+        },
+        {
+          "sigma": 1.3
+        }
+      ],
+      "bilateral_filter": [
+        {
+          "range_sigma": 25
+        },
+        {
+          "range_sigma": 40
+        },
+        {
+          "range_sigma": 60
+        }
+      ],
+      "median_filter": [
+        {
+          "kernel": 3
+        },
+        {
+          "kernel": 5
+        }
+      ],
+      "unsharp_mask": [
+        {
+          "radius": 1.0,
+          "amount": 0.7
+        },
+        {
+          "radius": 1.5,
+          "amount": 1.0
+        },
+        {
+          "radius": 2.0,
+          "amount": 1.2
+        }
+      ],
+      "sharpening": [
+        {}
+      ],
+      "rgb_balance": [
+        {}
+      ],
+      "hsv_correction": [
+        {}
+      ],
+      "lab_correction": [
+        {}
+      ]
+    },
+    "image_metric_protocol": "all images; deterministic pixel stride 4 (56x56 lattice at 224x224)",
+    "delta_e_protocol": "Test only; same deterministic 56x56 lattice; not used for selection",
+    "validation_split_sha256": "f0e41d266ccc35200cc4ed95fd63f69c6aa1b0378fa543f7ec0dccba62b46a17",
+    "model_sha256": "54e76a3464d73672dabf823b4040ef67607c49861e2a7286ca233c138dbbc44d",
+    "timestamp_utc": "2026-08-27T08:32:58.135429+00:00",
+    "git_commit": "not_available_no_git_repository",
+    "quick_run": false
+  },
+  "parameters": {
+    "color_cast|light|hsv_correction": {},
+    "color_cast|light|lab_correction": {},
+    "color_cast|light|rgb_balance": {},
+    "color_cast|medium|hsv_correction": {},
+    "color_cast|medium|lab_correction": {},
+    "color_cast|medium|rgb_balance": {},
+    "color_cast|strong|hsv_correction": {},
+    "color_cast|strong|lab_correction": {},
+    "color_cast|strong|rgb_balance": {},
+    "gaussian_blur|light|sharpening": {},
+    "gaussian_blur|light|unsharp_mask": {
+      "amount": 0.7,
+      "radius": 1.0
+    },
+    "gaussian_blur|medium|sharpening": {},
+    "gaussian_blur|medium|unsharp_mask": {
+      "amount": 1.0,
+      "radius": 1.5
+    },
+    "gaussian_blur|strong|sharpening": {},
+    "gaussian_blur|strong|unsharp_mask": {
+      "amount": 1.0,
+      "radius": 1.5
+    },
+    "gaussian_noise|light|bilateral_filter": {
+      "range_sigma": 60
+    },
+    "gaussian_noise|light|gaussian_filter": {
+      "sigma": 1.0
+    },
+    "gaussian_noise|medium|bilateral_filter": {
+      "range_sigma": 60
+    },
+    "gaussian_noise|medium|gaussian_filter": {
+      "sigma": 1.0
+    },
+    "gaussian_noise|strong|bilateral_filter": {
+      "range_sigma": 60
+    },
+    "gaussian_noise|strong|gaussian_filter": {
+      "sigma": 1.3
+    },
+    "low_light|light|clahe": {
+      "clip_limit": 1.5
+    },
+    "low_light|light|gamma_correction": {},
+    "low_light|medium|clahe": {
+      "clip_limit": 2.0
+    },
+    "low_light|medium|gamma_correction": {},
+    "low_light|strong|clahe": {
+      "clip_limit": 2.0
+    },
+    "low_light|strong|gamma_correction": {},
+    "salt_pepper|light|gaussian_filter": {
+      "sigma": 0.7
+    },
+    "salt_pepper|light|median_filter": {
+      "kernel": 3
+    },
+    "salt_pepper|medium|gaussian_filter": {
+      "sigma": 0.7
+    },
+    "salt_pepper|medium|median_filter": {
+      "kernel": 3
+    },
+    "salt_pepper|strong|gaussian_filter": {
+      "sigma": 1.3
+    },
+    "salt_pepper|strong|median_filter": {
+      "kernel": 3
+    }
+  }
+}

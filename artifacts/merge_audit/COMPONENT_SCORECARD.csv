@@ -1,0 +1,34 @@
+component,version_a_score_10,version_b_score_10,version_c_score_10,winner,evidence,reason,merged_from_other_version
+Scientific design,6,9,8,B,"B defines one fixed-CNN, paired 49-condition protocol.","B defines one fixed-CNN, paired 49-condition protocol.",False
+Raw data,5,8,7,Final,Final reruns PIL verify/full decode/SHA256 on supplied raw data.,Final reruns PIL verify/full decode/SHA256 on supplied raw data.,True
+EDA,6,8,8,B+C,B/C share the stronger multi-feature EDA; final regenerates counts.,B/C share the stronger multi-feature EDA; final regenerates counts.,True
+Split,5,9,8,B,Grouped stratified split and hash leakage checks.,Grouped stratified split and hash leakage checks.,False
+Leakage protection,5,9,8,B,Path and SHA overlap gates; final adds dataset guard.,Path and SHA overlap gates; final adds dataset guard.,False
+Preprocessing,6,9,8,B,Canonical EXIF/RGB/letterbox implementation and parity tests.,Canonical EXIF/RGB/letterbox implementation and parity tests.,False
+Degradation,7,9,8,B,Deterministic per-image seeds and locked 5x3 matrix.,Deterministic per-image seeds and locked 5x3 matrix.,False
+Enhancement,6,8,8,B+Final,"Final adds Macro F1, SSIM, latency tie-break and metadata.","Final adds Macro F1, SSIM, latency tie-break and metadata.",True
+Image metrics,7,8,8,B,"PSNR, SSIM, Delta E, brightness, contrast, edge and histogram.","PSNR, SSIM, Delta E, brightness, contrast, edge and histogram.",False
+MobileNetV2,0,5,4,B+Final,A is surrogate-only; B supplies correct architecture; final runs real Keras.,A is surrogate-only; B supplies correct architecture; final runs real Keras.,True
+Training,0,6,5,B+Final,Final fixes executable loader and captures two-stage epoch evidence.,Final fixes executable loader and captures two-stage epoch evidence.,True
+Tuning,2,7,6,B+Final,Validation-only grid with deterministic three-level tie-break.,Validation-only grid with deterministic three-level tie-break.,True
+Evaluation,2,8,5,B+Final,B has complete 49-condition evaluator; final executes it.,B has complete 49-condition evaluator; final executes it.,True
+Statistics,1,8,3,B,"Paired bootstrap, exact McNemar and Holm correction.","Paired bootstrap, exact McNemar and Holm correction.",False
+Error analysis,6,8,7,A+B+Final,A taxonomy retained; B traceability extended to five required groups.,A taxonomy retained; B traceability extended to five required groups.,True
+Notebook,5,7,6,B+Final,B has the best linear notebook; final replaces stale/duplicate execution path.,B has the best linear notebook; final replaces stale/duplicate execution path.,True
+Code architecture,4,9,7,B,Modular src and standalone Streamlit are the canonical architecture.,Modular src and standalone Streamlit are the canonical architecture.,False
+Tests,2,8,5,B+Final,"B has broad suite; final adds leakage, metadata and semantic gates.","B has broad suite; final adds leakage, metadata and semantic gates.",True
+CI,1,8,6,B,B has the strongest single-service CI baseline.,B has the strongest single-service CI baseline.,False
+Streamlit,3,9,6,B,Standalone direct src calls; no internal HTTP.,Standalone direct src calls; no internal HTTP.,False
+Docker/deploy,1,8,8,B+C,B canonical single service; C contributes documentation/static checks.,B canonical single service; C contributes documentation/static checks.,True
+README,4,9,9,B+C+Final,"C narrative plus B truthfulness, rewritten from final facts.","C narrative plus B truthfulness, rewritten from final facts.",True
+Word content,7,9,9,B+C+Final,C/B academic depth; final metrics are generated from CSV.,C/B academic depth; final metrics are generated from CSV.,True
+Word presentation,7,8,9,C,C provides the best polished report layout.,C provides the best polished report layout.,False
+PPT content,6,8,8,B+C+Final,Final removes placeholders and uses canonical sources.,Final removes placeholders and uses canonical sources.,True
+PPT presentation,7,8,9,C,C provides the strongest visual template.,C provides the strongest visual template.,False
+Excel,3,7,8,C+Final,C assignment structure; final rebuilds correct semantic formulas.,C assignment structure; final rebuilds correct semantic formulas.,True
+Data Card,0,9,6,B+Final,B has explicit provenance and limitations; final rerun counts.,B has explicit provenance and limitations; final rerun counts.,True
+Model Card,0,8,6,B+Final,B honest pending card; final populates only real checkpoint/results.,B honest pending card; final populates only real checkpoint/results.,True
+Assignment docs,2,8,9,C+Final,C structure plus canonical three-member metadata.,C structure plus canonical three-member metadata.,True
+Validator,1,9,5,B+Final,B strict validator is extended to visible Office text and semantics.,B strict validator is extended to visible Office text and semantics.,True
+Repository hygiene,3,9,6,B,B clean single-service package; C legacy services are excluded.,B clean single-service package; C legacy services are excluded.,False
+Coherence,3,8,5,Final,Final registry and visible-text audit remove stale administrative facts.,Final registry and visible-text audit remove stale administrative facts.,True

@@ -1,0 +1,49 @@
+{
+  "verified_at_utc": "2026-08-26",
+  "status": "NOT_SUBMISSION_READY",
+  "evidence_based_score": 76.0,
+  "source_compile": "PASS",
+  "unit_tests": {
+    "collected": 22,
+    "passed": 21,
+    "skipped": 1,
+    "failed": 0,
+    "skip_reason": "Streamlit is not installed in the lightweight verification runtime."
+  },
+  "notebook": {
+    "static_status": "PASS",
+    "total_cells": 54,
+    "code_cells": 30,
+    "executed_code_cells": 0,
+    "full_run_markers_present": false
+  },
+  "core_validator": "PASS",
+  "cross_artifact_consistency": "PASS",
+  "strict_validator": "FAIL_EXPECTED_MISSING_EXTERNAL_EVIDENCE",
+  "candidate_package": {
+    "archive_structure_and_checksums": "PASS",
+    "extracted_compile_tests_notebook_core_consistency": "PASS",
+    "packaged_files": 125
+  },
+  "documents": {
+    "report_pages": 43,
+    "report_accessibility_high_medium_low": [0, 0, 0],
+    "slides": 22,
+    "slide_overflow_issues": 0,
+    "slide_template_fidelity_issues": 0,
+    "slide_min_visible_font_pt": 18,
+    "assignment_sheets": 7,
+    "assignment_formula_errors": 0
+  },
+  "unavailable_or_blocked": [
+    "raw dataset re-audit",
+    "Ruff in the current runtime",
+    "TensorFlow checkpoint training/load",
+    "notebook FULL_RUN",
+    "Streamlit AppTest and startup smoke",
+    "Docker build and upload smoke",
+    "group administrative metadata",
+    "Streamlit Community Cloud deployment"
+  ],
+  "submission_ready": false
+}

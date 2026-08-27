@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flower-image-restoration-cnn"
+version = "1.0.0"
+description = "Controlled image degradation and restoration for five-flower classification."
+requires-python = ">=3.10,<3.14"
+
+[tool.setuptools.packages.find]
+include = ["src*", "app_components*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+exclude = ["legacy"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

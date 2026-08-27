@@ -1,0 +1,135 @@
+{
+  "valid_images": 3670,
+  "source_file_count": 3670,
+  "bad_images": [],
+  "duplicate_group_count": 3,
+  "cross_label_duplicate_group_count": 1,
+  "duplicate_groups": [
+    [
+      {
+        "path": "data/flower_photos/sunflowers/14889392928_9742aed45b_m.jpg",
+        "relative_path": "data/flower_photos/sunflowers/14889392928_9742aed45b_m.jpg",
+        "label": "sunflowers",
+        "width": 240,
+        "height": 221,
+        "aspect_ratio": 1.085972850678733,
+        "mode": "RGB",
+        "original_format": "JPEG",
+        "original_mode": "RGB",
+        "exif_orientation": null,
+        "sha256": "1235dc340983196227bcd84cdd1d598b97348373dc96b60871d16a63b9b30d5f",
+        "bytes": 32876,
+        "decode_status": "ok",
+        "duplicate_group": "dup_273"
+      },
+      {
+        "path": "data/flower_photos/sunflowers/15066430311_fb57fa92b0_m.jpg",
+        "relative_path": "data/flower_photos/sunflowers/15066430311_fb57fa92b0_m.jpg",
+        "label": "sunflowers",
+        "width": 240,
+        "height": 221,
+        "aspect_ratio": 1.085972850678733,
+        "mode": "RGB",
+        "original_format": "JPEG",
+        "original_mode": "RGB",
+        "exif_orientation": null,
+        "sha256": "1235dc340983196227bcd84cdd1d598b97348373dc96b60871d16a63b9b30d5f",
+        "bytes": 32876,
+        "decode_status": "ok",
+        "duplicate_group": "dup_273"
+      }
+    ],
+    [
+      {
+        "path": "data/flower_photos/sunflowers/15069459615_7e0fd61914_n.jpg",
+        "relative_path": "data/flower_photos/sunflowers/15069459615_7e0fd61914_n.jpg",
+        "label": "sunflowers",
+        "width": 320,
+        "height": 239,
+        "aspect_ratio": 1.3389121338912133,
+        "mode": "RGB",
+        "original_format": "JPEG",
+        "original_mode": "RGB",
+        "exif_orientation": null,
+        "sha256": "65ea2fd6f038f541bea6e28f077e666c755b81441ee6e2224191fc48f69b8d21",
+        "bytes": 51208,
+        "decode_status": "ok",
+        "duplicate_group": "dup_1417"
+      },
+      {
+        "path": "data/flower_photos/sunflowers/15072973261_73e2912ef2_n.jpg",
+        "relative_path": "data/flower_photos/sunflowers/15072973261_73e2912ef2_n.jpg",
+        "label": "sunflowers",
+        "width": 320,
+        "height": 239,
+        "aspect_ratio": 1.3389121338912133,
+        "mode": "RGB",
+        "original_format": "JPEG",
+        "original_mode": "RGB",
+        "exif_orientation": null,
+        "sha256": "65ea2fd6f038f541bea6e28f077e666c755b81441ee6e2224191fc48f69b8d21",
+        "bytes": 51208,
+        "decode_status": "ok",
+        "duplicate_group": "dup_1417"
+      }
+    ],
+    [
+      {
+        "path": "data/flower_photos/roses/15922772266_1167a06620.jpg",
+        "relative_path": "data/flower_photos/roses/15922772266_1167a06620.jpg",
+        "label": "roses",
+        "width": 500,
+        "height": 333,
+        "aspect_ratio": 1.5015015015015014,
+        "mode": "RGB",
+        "original_format": "JPEG",
+        "original_mode": "RGB",
+        "exif_orientation": null,
+        "sha256": "6784c09ff4eeec0e0ac148cdc74682f99c424ac89d85321d95161e20da9204e9",
+        "bytes": 55307,
+        "decode_status": "ok",
+        "duplicate_group": "dup_1437"
+      },
+      {
+        "path": "data/flower_photos/tulips/15922772266_1167a06620.jpg",
+        "relative_path": "data/flower_photos/tulips/15922772266_1167a06620.jpg",
+        "label": "tulips",
+        "width": 500,
+        "height": 333,
+        "aspect_ratio": 1.5015015015015014,
+        "mode": "RGB",
+        "original_format": "JPEG",
+        "original_mode": "RGB",
+        "exif_orientation": null,
+        "sha256": "6784c09ff4eeec0e0ac148cdc74682f99c424ac89d85321d95161e20da9204e9",
+        "bytes": 55307,
+        "decode_status": "ok",
+        "duplicate_group": "dup_1437"
+      }
+    ]
+  ],
+  "class_counts": {
+    "daisy": 633,
+    "dandelion": 898,
+    "roses": 641,
+    "sunflowers": 699,
+    "tulips": 799
+  },
+  "inventory_columns": [
+    "path",
+    "relative_path",
+    "label",
+    "width",
+    "height",
+    "aspect_ratio",
+    "mode",
+    "original_format",
+    "original_mode",
+    "exif_orientation",
+    "sha256",
+    "bytes",
+    "decode_status",
+    "duplicate_group"
+  ],
+  "audit_contract": "PIL verify + full decode + EXIF transpose + RGB + SHA256 + duplicate/cross-label grouping"
+}

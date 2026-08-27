@@ -1,0 +1,34 @@
+# Dataset and archives
+data/flower_photos/
+*.rar
+*.zip
+
+# Legacy/alternate large artifacts. The final .keras checkpoint is intentionally
+# versioned because Streamlit deployment needs it and it is below GitHub's limit.
+models/*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Notebooks and local configuration
+.ipynb_checkpoints/
+.env
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+
+# Generated bulk images
+data/degraded/
+data/enhanced/

@@ -1,0 +1,35 @@
+{
+  "architecture": "MobileNetV2",
+  "weights": "ImageNet",
+  "status": "FULL_RUN_COMPLETE",
+  "model_file": "models/mobilenetv2_flowers.keras",
+  "model_sha256": "54e76a3464d73672dabf823b4040ef67607c49861e2a7286ca233c138dbbc44d",
+  "model_size_bytes": 21809629,
+  "tensorflow_version": "2.21.0",
+  "cuda": "12.5.1",
+  "cudnn": "9",
+  "input_shape": [
+    null,
+    224,
+    224,
+    3
+  ],
+  "output_shape": [
+    null,
+    5
+  ],
+  "class_names": [
+    "daisy",
+    "dandelion",
+    "roses",
+    "sunflowers",
+    "tulips"
+  ],
+  "train_split_sha256": "ff7b875d93e4bcb5c34fff497657a920c25c44404f29b7820703a44af7b9f947",
+  "validation_split_sha256": "f0e41d266ccc35200cc4ed95fd63f69c6aa1b0378fa543f7ec0dccba62b46a17",
+  "seed": 42,
+  "git_commit": "not_available_no_git_repository",
+  "timestamp_utc": "2026-08-27T08:44:20.411316+00:00",
+  "training_duration_seconds": 1776.5554074998945,
+  "preprocessing": "EXIF transpose + RGB + letterbox LANCZOS 224 + in-graph MobileNetV2 preprocess_input"
+}

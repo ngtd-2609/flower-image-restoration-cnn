@@ -1,0 +1,17 @@
+.git
+.github
+legacy
+data/flower_photos
+*.rar
+*.zip
+__pycache__
+*.pyc
+.venv
+.ipynb_checkpoints
+.streamlit/secrets.toml
+qa
+.tmp
+.keras_cache
+node_modules
+artifacts/office_qa
+.pytest_cache

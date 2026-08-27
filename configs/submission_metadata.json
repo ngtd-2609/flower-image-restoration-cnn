@@ -1,0 +1,12 @@
+{
+  "project_title": "Nhận diện 5 loại hoa trong điều kiện ảnh suy giảm",
+  "instructor": "ThS. Nguyễn Văn Sơn",
+  "group": "Nhóm 7",
+  "members": [
+    {"student_id": "24100358", "name": "Nguyễn Tùng Dương"},
+    {"student_id": "24100065", "name": "Trịnh Ngọc Nga"},
+    {"student_id": "24106898", "name": "Trương Việt Thành"}
+  ],
+  "submission_date": "2026-08-27",
+  "status": "FULL_RUN_IN_PROGRESS — DEPLOY_READY_BUT_NOT_DEPLOYED"
+}

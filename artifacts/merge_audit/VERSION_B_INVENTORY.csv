@@ -1,0 +1,186 @@
+path,file_type,size,sha256,purpose,generated_source,suspected_stale,duplicate,legacy,candidate_role
+.dockerignore,none,121,fd219d24b9098ad8ac291d89ef68d7e27fc29545b2abd78d24b0e08595c5fcb6,project asset,source,False,False,False,exclude
+.github/workflows/ci.yml,.yml,1019,5bc95ca4e837f528d6dde4a0c4a19fb7a66197089d73936e428538ba133b768d,configuration or manifest,source,False,False,False,exclude
+.gitignore,none,405,1e33668fd3f9b9caac79f52f558bca8350336368ee1cb51508caeadee7a1737a,project asset,source,False,True,False,exclude
+.python-version,none,5,49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93,project asset,source,False,False,False,exclude
+.streamlit/config.toml,.toml,201,c078b943a8cc6ca91876cbdd6e420dae30668f750e7374b9283107c389589411,configuration or manifest,source,False,False,False,canonical engineering candidate
+AUDIT_REPORT.md,.md,4436,8caab24f945c62491238b33b56620de26a1d2ea04aed10ecd692ecc8e665a3e8,documentation,source,False,False,False,exclude
+BTL_XuLyAnh_NhanDienHoa.ipynb,.ipynb,34184,fe73b606c50d6967fe70684e44dfb85c8bbae46d0e7acefd679410465ce27655,executable notebook,source,False,False,False,exclude
+Dockerfile,none,657,849e058678210347638f2670c0f1756bfc137a52d33d69471e5abab703545bc5,project asset,source,False,False,False,canonical engineering candidate
+LICENSE,none,1098,b6670f1c478e6d174be8a5193200c3bdfba6f55f15fcecae74be5d3162f48524,project asset,source,False,True,False,exclude
+Makefile,none,1314,e0fd44bfef093bae7ec4c8eb01a8d1e8ed6d7d707c03ee7b64aeabd514f07936,project asset,source,False,False,False,exclude
+QUALITY_REPORT.md,.md,6050,19a64f377557f45e65dcde50e47835d3e426e3c906fa4efe5e1b23b95603d135,documentation,source,False,False,False,exclude
+README.md,.md,12022,3a38cc0c5a90f242b5dd60d9774f51928358d02d4bc1c72f32a0b9abb9cfab1e,documentation,source,False,False,False,exclude
+SHA256SUMS.txt,.txt,11521,802b91f3f2206f0c6a2de8321bb612647c2c8313f99e9f44a0e841fccea2bbd4,documentation,source,False,False,False,exclude
+__pycache__/streamlit_app.cpython-313.pyc,.pyc,8920,bcd3e98b3628c295200fce04ce7eda1e95ee18e894aa13e404433a4e3a483e18,project asset,source,False,False,False,canonical engineering candidate
+app_components/__init__.py,.py,74,7a1b2cc5f27cce376ecfffc650d0fa80a4d31713df7246677c53be0746ee4cae,source or build script,source,False,False,False,exclude
+app_components/__pycache__/__init__.cpython-313.pyc,.pyc,207,30c02b64e96821b03506abfcbb9918d1abd8db14bd953d19c0f9eb181599b4bb,project asset,source,False,False,False,exclude
+app_components/__pycache__/io.cpython-313.pyc,.pyc,3232,a8e6f101387fe84dd82deda4167c3394a04f83b2fa8b4c976159f9ba7949ee78,project asset,source,False,False,False,exclude
+app_components/__pycache__/pipeline.cpython-313.pyc,.pyc,2230,d364a5aff332014f6a21ff10c9aa206b4af8e7ac86249b000eb599f02d40b8eb,project asset,source,False,False,False,exclude
+app_components/__pycache__/readiness.cpython-313.pyc,.pyc,4829,17a1c96d106c3f2f647751384ca147628474263d132bfbd84d477dbf8cc5d231,project asset,source,False,False,False,exclude
+app_components/io.py,.py,1767,8391451763eb9d7a4d81e6645fb06a562e0e2fd077cb8319e1ada3bbe9964868,source or build script,source,False,False,False,exclude
+app_components/pipeline.py,.py,1661,0eceb09e6f92ca47f5f941a78215066485e6ea836bb5edcf2e5d34136afba688,source or build script,source,False,False,False,exclude
+app_components/readiness.py,.py,3073,fd0545ad4e7b061a8461b1536d0a9366863a5f41da34a072be9aa16b6fae559e,source or build script,source,False,False,False,exclude
+artifacts/README.md,.md,690,8fc4075d0b2eafb89fe21bf4722a9175b79e49571394d51f186b7c1e1d4ae0dc,documentation,source,False,False,False,exclude
+artifacts/baseline_audit.md,.md,2642,35d1772fc47def7f347d2183095cc9b6cf512922d8393d0bf79d3b5127cfbe94,documentation,source,False,False,False,exclude
+artifacts/cross_artifact_consistency.json,.json,1023,74920418d8b4000db75e156ee29af1b8f46978801078a320a5305bc44b390323,configuration or manifest,source,False,False,False,exclude
+artifacts/data_audit.json,.json,3413,e671661b2379297abdf6efe7353f7506b688d6ca0d7de93f3b5f28e788973893,configuration or manifest,source,False,False,False,exclude
+artifacts/final_verification_summary.json,.json,1431,4b7901428502675a0111cb0d730617de662a9f855801929c26eded701f76d8c2,configuration or manifest,source,False,False,False,exclude
+artifacts/project_validation.json,.json,2796,5c6d779967d6d4e9299e4ffd30e01d7b1e1b1dbe3e3c1632aa6252a04de6a99d,configuration or manifest,source,False,False,False,exclude
+artifacts/verification_environment.json,.json,629,61dba9da1ec6b39c9c1f5a1c43de9545cf79b9cd71dd791146583e7c4af6578c,configuration or manifest,source,False,False,False,exclude
+configs/degradation.yaml,.yaml,698,d8a903313551b75c59b8c9dab7c3b07dbbe75312a06fae203ccff1f14136e0ae,configuration or manifest,source,False,True,False,canonical engineering candidate
+configs/degradation_matrix.json,.json,12520,f46cf2fe630536d517c0d5c2a96d2baaddd701f0e9597d7956c409e40e701df2,configuration or manifest,source,False,False,False,canonical engineering candidate
+configs/experiment.yaml,.yaml,736,fd8dd70aa1fa93c36340302abc4dcd1c7ad1710ad42a6b578160043d16dd41e9,configuration or manifest,source,False,True,False,canonical engineering candidate
+configs/submission_metadata.schema.json,.json,704,7b09f01fe8a5c3807ba5b33c86f1e7157a3650b799a54d815816dcfd179cc735,configuration or manifest,source,False,False,False,canonical engineering candidate
+data/README.md,.md,442,38b1c001883c8b53c31f4fb271429c87faa662433cd7c1e6079260797d4b2c60,documentation,source,False,False,False,exclude
+data/inventory.csv,.csv,906803,5ea90e4f7a383f9ebd4f74bdfc71a6772642492764de827d23ea516ef4ddae3f,project asset,source,False,False,False,exclude
+docs/ASSIGNMENT_FINAL.xlsx,.xlsx,23291,0c66814e64f9bea66db032349a847a1b37dc3f74283952c9be8abdb03d6becc9,submission document,generated,False,False,False,exclude
+docs/DATA_CARD.md,.md,4814,bad9d0c460c75525c2796e1f402f14120a334d45c62c6dd98ee71588fa764cc8,documentation,source,False,False,False,exclude
+docs/EXPERIMENTS.md,.md,2595,ab363715d9669511bdd6e3c9e9afd829847545e87ba8b07a4452cba7f76c0a30,documentation,source,False,False,False,exclude
+docs/FINALIZATION_CHECKLIST.md,.md,2117,d24614ec312ba34249a24a3634f4203493eefc8db1c2ccc396627a04a0f3541e,documentation,source,False,False,False,exclude
+docs/GITHUB_SETUP.md,.md,1352,fd51ed16a244216b2aeb86b65b6cb1206615f0e83ee5c8829fe6ed212304daa7,documentation,source,False,False,False,exclude
+docs/MODEL_CARD.md,.md,4638,e5119a00908ea346110e918e971684bb2b47916e542f215b6bc80a6eb3dfdf7c,documentation,source,False,False,False,exclude
+docs/PHAN_CONG_NHOM.md,.md,3631,9f418b1106b8c129a4abacde6c642cf529f5b4cd7272dc40cff1f944c39bde45,documentation,source,False,False,False,exclude
+docs/REPORT_FINAL.docx,.docx,2158158,8e7158483a262e2ed5cb0595051fc2217bd0b6dfad974ace3b913e087dd88646,submission document,generated,False,False,False,exclude
+docs/REPORT_FINAL.pdf,.pdf,3294284,ef1882e28b3afc3a02d54c04b12b719c43196e0065a9fdb7d0337679a0ef8108,submission document,generated,False,False,False,exclude
+docs/SLIDES_FINAL.pptx,.pptx,1889135,edb5760292cfd7d68b664fd5970758036bfd5250bce039b304d4616a89d92c8f,submission document,generated,False,False,False,exclude
+docs/STREAMLIT_DEPLOYMENT.md,.md,2116,64780054816750fb51548446181f5c27d155408d8f6763344fd46a47c06da9fe,documentation,source,False,False,False,canonical engineering candidate
+figures/classification/delta_e_comparison.png,.png,62462,eea1519505e5c929dae34be0c2872610ab9ce6018238bcb6f3ebabd17693689e,generated evidence,generated,False,True,False,exclude
+figures/classification/edge_preservation.png,.png,164566,1e863f859c6261c9d01937d488c2babe53b67d34d347fa5427826f3e3b6a6dd4,generated evidence,generated,False,True,False,exclude
+figures/classification/psnr_comparison.png,.png,160382,38b1bbe632f6115843ecea1cbc50d6175a33a40f4dc34ea66058f324fdf68fdb,generated evidence,generated,False,True,False,exclude
+figures/classification/ssim_comparison.png,.png,154265,e1eeef99fe1a6cb93a9126acbe298792e99de88202012b96c5d461c6c509845a,generated evidence,generated,False,True,False,exclude
+figures/degradation/degradation_grid.png,.png,307506,36a6185cac9a45ab1036393dfb19bfe0d94b27750b1b5b4ef50b8651d9a8b667,generated evidence,generated,False,True,False,exclude
+figures/deployment/README.md,.md,256,4e70a652a71c65a4337f05cc7b2e8e66b3097fd8a53068988da48bb4a0c65cce,generated evidence,generated,False,False,False,exclude
+figures/eda/aspect_ratio_distribution.png,.png,62148,d59f9c812b7abec3b3f04f723204b6301ecd1ae9cdce7fd56f885d5741e0711d,generated evidence,generated,False,True,False,exclude
+figures/eda/brightness_distribution.png,.png,73874,4ecd7e1a9dde2620e8a7f8c9f9582cdaa2689b3f6d96901fcf4f7ea27dd3927b,generated evidence,generated,False,True,False,exclude
+figures/eda/class_distribution.png,.png,54895,32382fbfc6c35e89623d07a54b3f1abdb55314dd215f656e83b2dbb5709917ed,generated evidence,generated,False,False,False,exclude
+figures/eda/contrast_distribution.png,.png,62337,90e5adeea0a6bc24d404cb7ec5bd9de9da4754f57e23f41e3f7e8f7df50e7b00,generated evidence,generated,False,True,False,exclude
+figures/eda/edge_density_distribution.png,.png,63171,3ae7df0b5b31a42cef243ab341254273443e62bde2381500e2a0979d0e92803b,generated evidence,generated,False,True,False,exclude
+figures/eda/hsv_distribution.png,.png,80993,f7285f4a545e3b8597896a4ddbe8a04bdd7234f83cec060f4c2b622e52cb0be0,generated evidence,generated,False,True,False,exclude
+figures/eda/image_height_distribution.png,.png,61416,04f386e7b046bed512b77cabd1ab96bae1fb25481a5c3c2952d16a8f25cf82ac,generated evidence,generated,False,True,False,exclude
+figures/eda/image_width_distribution.png,.png,63814,7fd206e8a83cd56d0b60d74a8deef7028c89709758ca8165a7a4584f731a34d2,generated evidence,generated,False,True,False,exclude
+figures/eda/lab_distribution.png,.png,85900,b84ea815e0f51a82245a9fba2d32cfcf28895c74b33bcafd1d6e0a357c109b60,generated evidence,generated,False,True,False,exclude
+figures/eda/rgb_histogram.png,.png,76847,590500d1a80fe162e7632bd694e978ae81b4ef04e65ccaa40bc3bbfac2284d98,generated evidence,generated,False,True,False,exclude
+figures/eda/sample_classes.png,.png,666239,e24fb0362b3b2def18df3366a91afb2a595aca7e42ad7ae9c26b33b8a5a1db81,generated evidence,generated,False,True,False,exclude
+figures/enhancement/color_space_comparison.png,.png,87866,9d6f1cd64e4670c1812f1ad473af40f573cc184f0fbb626d0ae84c79404d354a,generated evidence,generated,False,True,False,exclude
+figures/enhancement/enhancement_grid.png,.png,324931,b41bb0709edb0623a139458246158d9910ecb69e5f71598ec5c68a1d4c8085e3,generated evidence,generated,False,True,False,exclude
+figures/error_analysis/README.md,.md,252,31614a175ab33e0afd151d9b8460d98f810b47f5e41350f1f9f0267e0ec519fd,generated evidence,generated,False,True,False,exclude
+models/class_names.json,.json,68,767aad2065eff85413aa7ca562ef5ef7a3840f6236dbefd94f0f3177b1662ad4,configuration or manifest,source,False,True,False,exclude
+models/model_metadata.json,.json,456,43e8066d16f929a6415b72cf1234e383ad03c4a627ee650c2aee157082a2a5e7,configuration or manifest,source,False,False,False,exclude
+pyproject.toml,.toml,494,b20fd4ea1b87fc70d8dd9c40f5b2f4d814faf226e3d859647cc7e038067aa932,configuration or manifest,source,False,False,False,exclude
+requirements-dev.txt,.txt,87,b1e6397551e7ac6926461151a89ab0721c55080049141c89417db0ace8013bca,documentation,source,False,True,False,exclude
+requirements.txt,.txt,166,52a18bebf1a520c4b41ecaa016f1438404af9ea1dbdbcba3503020f299e95b96,documentation,source,False,False,False,exclude
+results/README.md,.md,812,4441a0fd317f5e32f455481f3f9af8be928a51a534ab228608a7eefd58d7cbc3,generated evidence,generated,False,False,False,exclude
+results/assignment_final_inspect.ndjson,.ndjson,20136,1bcda6acb436013daa95afe182be24530cd0262ed22b4b197769f768f1ec339a,generated evidence,generated,False,False,False,exclude
+results/assignment_formula_errors.ndjson,.ndjson,61,44b42bbc2fa2bbf67b44ab8b232a112cf94c577c317f8b4f242e70e8f343db89,generated evidence,generated,False,False,False,exclude
+results/data_validation.json,.json,3194,441ce3725da31b46d6f64b0fe8f0d3245c2f909087c02012034746cd31ce344d,generated evidence,generated,False,True,False,exclude
+results/dataset_summary.csv,.csv,452,8dc5d3d2120db3672c3c57a335268fb989a1fa9f49d55d10db1c32a40ee561ea,generated evidence,generated,False,True,False,exclude
+results/eda_sample_metrics.csv,.csv,39427,1b4324fd20b650917621d69fcea21d79fe2216fa4e9300d69b91d944e0527bdf,generated evidence,generated,False,True,False,exclude
+results/image_quality_results_49_conditions.csv,.csv,9899,ff789b186a3d39f34c59da071ba97677a8a9c4fa220312c70b6395559e2ce607,generated evidence,generated,False,True,False,exclude
+results/report_final_a11y.json,.json,121,f343e1ebac7504fe151cd6e37c6339f1b7a618cc2c1e8a9f26b49090ae357c7b,generated evidence,generated,False,False,False,exclude
+results/slide_final_inspect.ndjson,.ndjson,57289,cb612022c6f0423c33e20c048be8b6f86d41ec2f156b81b14b7ac5e8388d7634,generated evidence,generated,False,False,False,exclude
+scripts/__pycache__/build_notebook.cpython-313.pyc,.pyc,30374,71a156bffd6df0ace96324d28f64e43cc21e461ab38d4922b1540e8db4b19ce4,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/build_submission_manifest.cpython-313.pyc,.pyc,2905,fe3d224f4faefe6c1c21e66d957820475a2165dd356e6e39b16491b3e1c95cde,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/check_consistency.cpython-313.pyc,.pyc,7339,394ed3dad7933c34ccdb67bab735625c94fdb253d5ced8dfd8dbdb54b6930589,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/check_notebook.cpython-313.pyc,.pyc,6125,26e69bb74150ab1725837e415d51f02be4d3ca375204169efe3abc9f9638fafb,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/export_experiment_matrix.cpython-313.pyc,.pyc,1234,ab0e412380e70718cc9eab1b7bad8f144ec876dc5598f94161e3c0148ede819b,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/finalize_report_corrections.cpython-313.pyc,.pyc,4926,eb250839f619829ac4306057752fea24df137f41e21b39e56ac84a6591d0bf11,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/generate_eda.cpython-313.pyc,.pyc,6722,a7b1466392cd9659d2604557d2a4fce87aea74f0b53112eba1125e128c07f4f8,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/package_submission.cpython-313.pyc,.pyc,3506,0257c538e688646d25b78a143a7f72b5dae67be024591cf73084cbaf67461d8c,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/regenerate_recorded_class_distribution.cpython-313.pyc,.pyc,2764,1c8e5278c07f707be88c876114a386864878f0db4189f8c52b25fbee60249869,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/repair_report.cpython-313.pyc,.pyc,10106,3ec26f68578b17ae3b7618b719fb2f4c244238bc097ef4ce7e6120b8b1db994a,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/run_full_pipeline.cpython-313.pyc,.pyc,12115,7124dad3e6b72a2d0949d1fb4e3f69dd0d19ef1e6878019f373801993c3de31a,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/run_quality_experiment.cpython-313.pyc,.pyc,6260,1a0fd69e3f1558c55361518a2f44c4de266d94ba9e437d629cf9a4c5725ea619,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/upgrade_recorded_inventory.cpython-313.pyc,.pyc,2416,e181ef3ecf69c48aaa346d6b776899bd6b70d972065e3ea259639924c575e35c,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/validate_project.cpython-313.pyc,.pyc,25124,690f5064a56ad2414efaabeb6d16c5231373ab4cac2b94b43f1902fa631d38af,project asset,source,False,False,False,canonical engineering candidate
+scripts/__pycache__/verify_submission_package.cpython-313.pyc,.pyc,3777,12a8609b316307b56c71421213392fc7393bd50871720403fcd27bd7f9383dbd,project asset,source,False,False,False,canonical engineering candidate
+scripts/build_notebook.py,.py,28350,e9ce9eb5f22cd01f8fb154cce591c18204a3e9e4e4f888c60031e7939b145c18,source or build script,source,False,False,False,canonical engineering candidate
+scripts/build_submission_manifest.py,.py,1251,c7a4988887b318186f5f093860627a555ab9fd6e0915e13501f1a00b96f5d217,source or build script,source,False,False,False,canonical engineering candidate
+scripts/check_consistency.py,.py,4202,4db6f1bcbfd8cd4384505959363cb81f608d9c489cdddc0a4566e6ab633ac26e,source or build script,source,False,False,False,canonical engineering candidate
+scripts/check_notebook.py,.py,3360,b105c937db66b9770647c2b9cb6183632afe7691e8c6c7de5541b8704ae356d9,source or build script,source,False,False,False,canonical engineering candidate
+scripts/export_experiment_matrix.py,.py,522,c101df2450e8ab7a91503fa0ada8f939606996b9ffd7d0ff1fc96095137dfe71,source or build script,source,False,False,False,canonical engineering candidate
+scripts/finalize_report_corrections.py,.py,3258,4dcc485139fa7ada8744c085b899a7d201a73012692e3cd2fc895f5a43c22c91,source or build script,source,False,False,False,canonical engineering candidate
+scripts/generate_eda.py,.py,3375,c69797af418da96da399711fcf33674203991e6501a60403cd1633fa2febe93f,source or build script,source,False,False,False,canonical engineering candidate
+scripts/package_submission.py,.py,2088,2f50853dfe1dadd9686b2ff3c2490dc838d3aa3168d940f7079262be069a0016,source or build script,source,False,False,False,canonical engineering candidate
+scripts/regenerate_recorded_class_distribution.py,.py,1220,7719a0615d922bb7d71ff048feacf77a2aa2bd2365a0ad398c8e0feaae263f76,source or build script,source,False,False,False,canonical engineering candidate
+scripts/repair_report.py,.py,6948,c962edc30ea4f9afbe24a033991d7877c1efad5d240514c87f352c8236c7c875,source or build script,source,False,False,False,canonical engineering candidate
+scripts/run_full_pipeline.py,.py,7984,9ba1bd84b238ae409e30b5c3c3137967b40d6f45c0a0c1d0960dba8f48613043,source or build script,source,False,False,False,canonical engineering candidate
+scripts/run_quality_experiment.py,.py,4089,5a106e01581fa1a413a63257ca328cff709ccdbdf930312c0d10c4a1cea58f7e,source or build script,source,False,False,False,canonical engineering candidate
+scripts/upgrade_recorded_inventory.py,.py,1341,863756e4525d2af57dd9406b286a9d6b26a411bbbba22871181b2afa3d108e53,source or build script,source,False,False,False,canonical engineering candidate
+scripts/validate_project.py,.py,17039,f70dfaea6c01ef30118eb76de00beedc16566bb19ec4a2e513521be152d825c9,source or build script,source,False,False,False,canonical engineering candidate
+scripts/verify_submission_package.py,.py,2246,76fff1e0028331d4cbe07e29a5640b56faf192d4272585b25975c4bc6d74065f,source or build script,source,False,False,False,canonical engineering candidate
+splits/test.csv,.csv,70255,1ca5ed168c0c5ad5c10fbc5b7d239f61b92bd1baccac60d99d1569623c735247,project asset,source,False,True,False,exclude
+splits/train.csv,.csv,327969,0c54b4ad94470f1875fac16d06901cb04fa1f2aa3a2fde99d566811616184510,project asset,source,False,True,False,exclude
+splits/validation.csv,.csv,70274,d7d14c89b2fb0f63efed0aa15eb0b6e0135bc2d6f355679b1ad59193827d89e5,project asset,source,False,True,False,exclude
+src/__init__.py,.py,183,db54fde086754decbc4f2cbea2474533bea221632cfc59afd43e4e61291bcc23,source or build script,source,False,True,False,canonical engineering candidate
+src/__pycache__/__init__.cpython-313.pyc,.pyc,316,b5393e071d1f45e1a57108f3746b3c94a071df1172d61ccf95378259514c88ec,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/classification_metrics.cpython-313.pyc,.pyc,7317,30657f5635fd8da28f170fa557b8834e33a1197d774d0487cd985002eaf51d44,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/color_spaces.cpython-313.pyc,.pyc,2703,4110eb0270256a77aa498ab3d3103a4e3f01c2573182fbfffb70140ac8b6e0b9,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/config.cpython-313.pyc,.pyc,2937,254801f73623c1093f89d527a45b9a2888309d4291d63f42e425261209b8b1db,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/data_loader.cpython-313.pyc,.pyc,2602,6aeee5cac92ec67922a5d9cbe23e537bfedebb19d13015887e1fb95d7b9c3090,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/data_split.cpython-313.pyc,.pyc,3068,6f7080c1602a44313af03d521d6d51f2a3cb88ea6d9d1de72e53d7e84b244c89,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/data_validation.cpython-313.pyc,.pyc,5886,84ef3e78b5e8b4ae77db87033abeb96ecff7c1da564d9469e5ca7223b2d63557,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/degradations.cpython-313.pyc,.pyc,3733,18eb66906aec9a7964e29736a4be41f0e10074474fde0e31fab1a2236f4e8d12,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/enhancements.cpython-313.pyc,.pyc,12209,4256776508a4c3ec9f8450942888a00f8c164871825992c4923320bb572ab905,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/error_analysis.cpython-313.pyc,.pyc,4355,a56201f89fee43da02d64bd5d31182e7682c45607acaebca813c350682e322ac,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/evaluate.cpython-313.pyc,.pyc,17211,cb389424168a727e1a802636a52ad7d5bc909151c16ad18bc5130d26b1e8e020,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/experiment_matrix.cpython-313.pyc,.pyc,2724,fea0055fd966b0bd0156fe28f5b4ca62048b92215c6bee1048228e2038eaccd1,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/image_metrics.cpython-313.pyc,.pyc,8716,da3bdde6b1c88b4e58d6f19711a60dd9fcbe0945ddfde58ffaf4397437bb4eff,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/inference.cpython-313.pyc,.pyc,3662,60ea445dcde3326613ca678190e05913de917d705dcce7c9d3fc5c4141e2823b,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/locked_params.cpython-313.pyc,.pyc,1584,9c089f7b30aa6f1395bc26046f02c013e40fcaf8444f933b68e88549f3626381,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/model.cpython-313.pyc,.pyc,2658,3822d079a7c5ac7ca8a9e63702ef721317b0c3cf4ed8a752d9fbc0f7396543d3,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/preprocessing.cpython-313.pyc,.pyc,4289,bd395d806495196e9ecbff0bf935efe992959f80344fe1c31aef34edafb28e51,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/train.cpython-313.pyc,.pyc,3404,5eded582128e3d7a0beb58968d78f6e62e6bb5d15b87855eb0a33f9806484174,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/tuning.cpython-313.pyc,.pyc,5100,c7919f0aa01d2f71b2d84347c294ff521dd3b03d7cd5825f7bb2507355cae80c,project asset,source,False,False,False,canonical engineering candidate
+src/__pycache__/visualization.cpython-313.pyc,.pyc,1881,77fe7f509936a266ef38c4207c2de602d80dfeb1821582ec1ab6cae67380f102,project asset,source,False,False,False,canonical engineering candidate
+src/classification_metrics.py,.py,4630,18bdb69ac11d0485db5edc58f025c5b2f2f5a95f96983fa13f0e2e6cad19e04e,source or build script,source,False,False,False,canonical engineering candidate
+src/color_spaces.py,.py,1295,b1fb68605b36d23a0c17e0df5df7f4db5c3d75bde599b995f580bd225a12db36,source or build script,source,False,True,False,canonical engineering candidate
+src/config.py,.py,1806,c4189192b0b0c1ac6ff7a6715c9775f0b69e3369da669708e12cc87ed4dc152a,source or build script,source,False,True,False,canonical engineering candidate
+src/data_loader.py,.py,1285,6eb9416837b3f3480478625e8dc56225920aa7daef107d2813c79779087c04ad,source or build script,source,False,False,False,canonical engineering candidate
+src/data_split.py,.py,1827,19f8d6924a8240df439a2e4c07567de802dc5f095962fdb34db3efce0a26b5dc,source or build script,source,False,True,False,canonical engineering candidate
+src/data_validation.py,.py,3588,982f04e8e0e0b56cd6cd00d803c3d33c6a61ab601cfa9be364f0a20184246473,source or build script,source,False,False,False,canonical engineering candidate
+src/degradations.py,.py,1992,b3e5978a45b50f8b67dc7facf46142436e90fa156d95da8909e8ca78738989e3,source or build script,source,False,False,False,canonical engineering candidate
+src/enhancements.py,.py,6683,af9f18cc3c416bdc770fc3550966fd3bbca4be9ad2538db0ac871373985aea0c,source or build script,source,False,False,False,canonical engineering candidate
+src/error_analysis.py,.py,4580,22a75bbbc010b30f42beed2d724fae74977235873de7e5a649889c2b4de295cc,source or build script,source,False,False,False,canonical engineering candidate
+src/evaluate.py,.py,14188,20c234d0e1c9a8d50b42fcad6ad2f299ea52104654e197cf31ed0a4806c970af,source or build script,source,False,False,False,canonical engineering candidate
+src/experiment_matrix.py,.py,1783,3b6fada313d7aa07a04c021addff9a1ac0876e6d2811805025d7ac0ef14545ea,source or build script,source,False,False,False,canonical engineering candidate
+src/image_metrics.py,.py,4490,16a9af1431896f2cb70c6684af2fe7af2493cf043a5b5d1b08f0f7b9920529d6,source or build script,source,False,False,False,canonical engineering candidate
+src/inference.py,.py,2121,c7285fc74b68af51a9290cfe1d53f2ae65da29956b15d8c99634f057ef12d76c,source or build script,source,False,False,False,canonical engineering candidate
+src/locked_params.py,.py,940,8722f2ccaeaf7e4a7f8d4c9d6bee489dd10701f417c8b887ba2678db91341e24,source or build script,source,False,False,False,canonical engineering candidate
+src/model.py,.py,1366,f9f97f86b09293eab7427581fb28c6f79ba819ff190231b0a2afaa7a6480b9c2,source or build script,source,False,True,False,canonical engineering candidate
+src/preprocessing.py,.py,2210,f130615d59b9b3c42244e862ea1f96e568857a8b9e099b68ed09fbe35a7997ec,source or build script,source,False,False,False,canonical engineering candidate
+src/train.py,.py,2252,3143788ae1d5180f669245da8ab5c7557c7018fb0cb682a8646c9516a1cddfe4,source or build script,source,False,False,False,canonical engineering candidate
+src/tuning.py,.py,3081,95dc1b211f98df671947eb6c610e513dc6e77709ee442a142a21139b6fba3a55,source or build script,source,False,False,False,canonical engineering candidate
+src/visualization.py,.py,939,7ebbbcdf87beb3815ddfc0679c21985e93c07fbe84061f62554b9d989108f853,source or build script,source,False,True,False,canonical engineering candidate
+streamlit_app.py,.py,6137,3cf4d3e7380549e7d27a37114cd7a8b53337ee7c56416e1d391dc7e16eabc231,source or build script,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_app_pipeline.cpython-313-pytest-9.1.1.pyc,.pyc,4051,b3fecef9ef4a5c3fb7c8d3a35f26ba828ed979218547aa85c7653d04c190b41a,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_app_pipeline.cpython-313.pyc,.pyc,3882,d5218dda16d60ae4a2595433ba8f6c1378d075ea5f034b8db2656af07432764f,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_data_split.cpython-313-pytest-9.1.1.pyc,.pyc,2013,e586ce7e484b6014e159e238675b699ce9d492fd4e775e24cf0ca812bb7032ec,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_data_split.cpython-313.pyc,.pyc,1844,4d79c659e511fb3863ab7455a73a33fa4c875dcd38a3a08e6a70b5b937678310,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_degradations.cpython-313-pytest-9.1.1.pyc,.pyc,3153,ea9128c2e3db918a55a716e0c8f48fe6ef0a7c70bf0f8816e72792050f902957,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_degradations.cpython-313.pyc,.pyc,2984,85636c1a3c1632ca78dc7b027f8935a6bd50d20c17b5bf6a204fc9e4bbac0b84,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_enhancements.cpython-313-pytest-9.1.1.pyc,.pyc,2361,f9bc39dd9a6ad9ca03493f68719561b9bb833717dda8d4781e0733b956c7a2c7,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_enhancements.cpython-313.pyc,.pyc,2192,91bb337fe8e094a3578b441432a3684819cd37c215e540327314c97ccbf9f5d4,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_experiment_matrix.cpython-313-pytest-9.1.1.pyc,.pyc,1549,4547fc8e11de764ab75f18f9a9bfce39c9f473fed770a573b199759f52bb1bd8,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_experiment_matrix.cpython-313.pyc,.pyc,1380,288aa24c7e09e69d62dbe935c4abd30a4ab06aacbf88b33b03def18d2fae2c5e,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_locked_params.cpython-313-pytest-9.1.1.pyc,.pyc,2171,e70e71bc6092fa756e362a403d4f499c8c2cc3fe83ab7a1c6c32bcc56743cf62,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_locked_params.cpython-313.pyc,.pyc,2002,c86fd70c58dcf29d3ff965718ca92d737bfd5d9983bc7e1940f24fb8f36d5066,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_metrics.cpython-313-pytest-9.1.1.pyc,.pyc,3198,28fdfce21dc41971e731e274c24988a52d39ddf921efcace4e0a24f960347c73,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_metrics.cpython-313.pyc,.pyc,3029,dfeab37b6407317ba7846c85094da3ed42197d340fe47348d4858702378c63d1,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_preprocessing.cpython-313-pytest-9.1.1.pyc,.pyc,3019,b38f905154f369ef691be30e08ff68ae60cd90c288a25c0815dc101c67925157,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_preprocessing.cpython-313.pyc,.pyc,2850,f904bb8490b68707799a72e24856769c01db6df961e6a48a150a6992e6dd5ef8,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_readiness.cpython-313-pytest-9.1.1.pyc,.pyc,3787,2f47730dd5d0a8df4316814dc561a725851181f0bf38d2630c41b3563c7cec1f,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_readiness.cpython-313.pyc,.pyc,3618,0428cfcec0436dbafcb2ccde63319ec297f3623961a2369b99c1917407fb18d6,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_streamlit_app.cpython-313-pytest-9.1.1.pyc,.pyc,3470,c5268a26f3ea9c4630c0be2fb5798ec9853fa6f4e77654ae19ffa6dfd06e8759,automated test,source,False,False,False,canonical engineering candidate
+tests/__pycache__/test_streamlit_app.cpython-313.pyc,.pyc,3300,599ddd4302f9f4ee128df89e0ea63386021ec17876bb161a25dc6eb4d7ab7900,automated test,source,False,False,False,canonical engineering candidate
+tests/test_app_pipeline.py,.py,2087,111b09d2b788eb5bbb168282f147b420c3f0a7412756335726bc9b9db748f21f,automated test,source,False,False,False,canonical engineering candidate
+tests/test_data_split.py,.py,831,2842ed1e3ccd8029fd1f53e399850a8dad2467b1032d6f5664a5999ce53215e9,automated test,source,False,True,False,canonical engineering candidate
+tests/test_degradations.py,.py,1414,21fd62b5942f74b896ddd6fa4f3965bae479fccd59d3312e613eed5fb0c8543c,automated test,source,False,True,False,canonical engineering candidate
+tests/test_enhancements.py,.py,898,05a6bf971ada2bce7eac991d5db4061d740e204a9c8e2a14b38a8abc03fd30f6,automated test,source,False,True,False,canonical engineering candidate
+tests/test_experiment_matrix.py,.py,522,d6e607f8b1d377e2320bc02e3ce24251a4539965291959fd635dce673f92b0ce,automated test,source,False,False,False,canonical engineering candidate
+tests/test_locked_params.py,.py,932,41f7904f7bde3c8c96dbd24accf29995dc65d6de8b39ec652bb5effc93773670,automated test,source,False,False,False,canonical engineering candidate
+tests/test_metrics.py,.py,1454,7a6ab6aaa481b0c4a32924061a2388b635e6c729de71315234dd72e2980981cc,automated test,source,False,False,False,canonical engineering candidate
+tests/test_preprocessing.py,.py,1183,5cbf5a3ef1a19eecd2fe506b209aa552f0e74150eb1647332714d2a2afc14ad5,automated test,source,False,False,False,canonical engineering candidate
+tests/test_readiness.py,.py,2253,193f25dff03a1a306040335258ffaf054ee004571025513f440f82dffe1a2a57,automated test,source,False,False,False,canonical engineering candidate
+tests/test_streamlit_app.py,.py,1242,3ad247d94d71b6c3891fc8aee6b2f6f233e67f1906b29374478cf02577aa793e,automated test,source,False,False,False,canonical engineering candidate
+uv.lock,.lock,156,56cf070f7e52418153f32277dfed05e8545186392776ab9e3ec1167aed988941,project asset,source,False,False,False,exclude

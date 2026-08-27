@@ -1,0 +1,538 @@
+[
+  {
+    "condition_id": "clean",
+    "image_type": "clean",
+    "degradation": "clean",
+    "level": "none",
+    "enhancement_method": "none",
+    "degradation_params": {}
+  },
+  {
+    "condition_id": "low_light__light__degraded",
+    "image_type": "degraded",
+    "degradation": "low_light",
+    "level": "light",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "gamma": 1.5
+    }
+  },
+  {
+    "condition_id": "low_light__light__gamma_correction",
+    "image_type": "enhanced",
+    "degradation": "low_light",
+    "level": "light",
+    "enhancement_method": "gamma_correction",
+    "degradation_params": {
+      "gamma": 1.5
+    }
+  },
+  {
+    "condition_id": "low_light__light__clahe",
+    "image_type": "enhanced",
+    "degradation": "low_light",
+    "level": "light",
+    "enhancement_method": "clahe",
+    "degradation_params": {
+      "gamma": 1.5
+    }
+  },
+  {
+    "condition_id": "low_light__medium__degraded",
+    "image_type": "degraded",
+    "degradation": "low_light",
+    "level": "medium",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "gamma": 2.5
+    }
+  },
+  {
+    "condition_id": "low_light__medium__gamma_correction",
+    "image_type": "enhanced",
+    "degradation": "low_light",
+    "level": "medium",
+    "enhancement_method": "gamma_correction",
+    "degradation_params": {
+      "gamma": 2.5
+    }
+  },
+  {
+    "condition_id": "low_light__medium__clahe",
+    "image_type": "enhanced",
+    "degradation": "low_light",
+    "level": "medium",
+    "enhancement_method": "clahe",
+    "degradation_params": {
+      "gamma": 2.5
+    }
+  },
+  {
+    "condition_id": "low_light__strong__degraded",
+    "image_type": "degraded",
+    "degradation": "low_light",
+    "level": "strong",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "gamma": 4.0
+    }
+  },
+  {
+    "condition_id": "low_light__strong__gamma_correction",
+    "image_type": "enhanced",
+    "degradation": "low_light",
+    "level": "strong",
+    "enhancement_method": "gamma_correction",
+    "degradation_params": {
+      "gamma": 4.0
+    }
+  },
+  {
+    "condition_id": "low_light__strong__clahe",
+    "image_type": "enhanced",
+    "degradation": "low_light",
+    "level": "strong",
+    "enhancement_method": "clahe",
+    "degradation_params": {
+      "gamma": 4.0
+    }
+  },
+  {
+    "condition_id": "gaussian_noise__light__degraded",
+    "image_type": "degraded",
+    "degradation": "gaussian_noise",
+    "level": "light",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "sigma": 10.0
+    }
+  },
+  {
+    "condition_id": "gaussian_noise__light__gaussian_filter",
+    "image_type": "enhanced",
+    "degradation": "gaussian_noise",
+    "level": "light",
+    "enhancement_method": "gaussian_filter",
+    "degradation_params": {
+      "sigma": 10.0
+    }
+  },
+  {
+    "condition_id": "gaussian_noise__light__bilateral_filter",
+    "image_type": "enhanced",
+    "degradation": "gaussian_noise",
+    "level": "light",
+    "enhancement_method": "bilateral_filter",
+    "degradation_params": {
+      "sigma": 10.0
+    }
+  },
+  {
+    "condition_id": "gaussian_noise__medium__degraded",
+    "image_type": "degraded",
+    "degradation": "gaussian_noise",
+    "level": "medium",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "sigma": 25.0
+    }
+  },
+  {
+    "condition_id": "gaussian_noise__medium__gaussian_filter",
+    "image_type": "enhanced",
+    "degradation": "gaussian_noise",
+    "level": "medium",
+    "enhancement_method": "gaussian_filter",
+    "degradation_params": {
+      "sigma": 25.0
+    }
+  },
+  {
+    "condition_id": "gaussian_noise__medium__bilateral_filter",
+    "image_type": "enhanced",
+    "degradation": "gaussian_noise",
+    "level": "medium",
+    "enhancement_method": "bilateral_filter",
+    "degradation_params": {
+      "sigma": 25.0
+    }
+  },
+  {
+    "condition_id": "gaussian_noise__strong__degraded",
+    "image_type": "degraded",
+    "degradation": "gaussian_noise",
+    "level": "strong",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "sigma": 50.0
+    }
+  },
+  {
+    "condition_id": "gaussian_noise__strong__gaussian_filter",
+    "image_type": "enhanced",
+    "degradation": "gaussian_noise",
+    "level": "strong",
+    "enhancement_method": "gaussian_filter",
+    "degradation_params": {
+      "sigma": 50.0
+    }
+  },
+  {
+    "condition_id": "gaussian_noise__strong__bilateral_filter",
+    "image_type": "enhanced",
+    "degradation": "gaussian_noise",
+    "level": "strong",
+    "enhancement_method": "bilateral_filter",
+    "degradation_params": {
+      "sigma": 50.0
+    }
+  },
+  {
+    "condition_id": "salt_pepper__light__degraded",
+    "image_type": "degraded",
+    "degradation": "salt_pepper",
+    "level": "light",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "amount": 0.01
+    }
+  },
+  {
+    "condition_id": "salt_pepper__light__median_filter",
+    "image_type": "enhanced",
+    "degradation": "salt_pepper",
+    "level": "light",
+    "enhancement_method": "median_filter",
+    "degradation_params": {
+      "amount": 0.01
+    }
+  },
+  {
+    "condition_id": "salt_pepper__light__gaussian_filter",
+    "image_type": "enhanced",
+    "degradation": "salt_pepper",
+    "level": "light",
+    "enhancement_method": "gaussian_filter",
+    "degradation_params": {
+      "amount": 0.01
+    }
+  },
+  {
+    "condition_id": "salt_pepper__medium__degraded",
+    "image_type": "degraded",
+    "degradation": "salt_pepper",
+    "level": "medium",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "amount": 0.03
+    }
+  },
+  {
+    "condition_id": "salt_pepper__medium__median_filter",
+    "image_type": "enhanced",
+    "degradation": "salt_pepper",
+    "level": "medium",
+    "enhancement_method": "median_filter",
+    "degradation_params": {
+      "amount": 0.03
+    }
+  },
+  {
+    "condition_id": "salt_pepper__medium__gaussian_filter",
+    "image_type": "enhanced",
+    "degradation": "salt_pepper",
+    "level": "medium",
+    "enhancement_method": "gaussian_filter",
+    "degradation_params": {
+      "amount": 0.03
+    }
+  },
+  {
+    "condition_id": "salt_pepper__strong__degraded",
+    "image_type": "degraded",
+    "degradation": "salt_pepper",
+    "level": "strong",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "amount": 0.07
+    }
+  },
+  {
+    "condition_id": "salt_pepper__strong__median_filter",
+    "image_type": "enhanced",
+    "degradation": "salt_pepper",
+    "level": "strong",
+    "enhancement_method": "median_filter",
+    "degradation_params": {
+      "amount": 0.07
+    }
+  },
+  {
+    "condition_id": "salt_pepper__strong__gaussian_filter",
+    "image_type": "enhanced",
+    "degradation": "salt_pepper",
+    "level": "strong",
+    "enhancement_method": "gaussian_filter",
+    "degradation_params": {
+      "amount": 0.07
+    }
+  },
+  {
+    "condition_id": "gaussian_blur__light__degraded",
+    "image_type": "degraded",
+    "degradation": "gaussian_blur",
+    "level": "light",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "kernel": 3
+    }
+  },
+  {
+    "condition_id": "gaussian_blur__light__unsharp_mask",
+    "image_type": "enhanced",
+    "degradation": "gaussian_blur",
+    "level": "light",
+    "enhancement_method": "unsharp_mask",
+    "degradation_params": {
+      "kernel": 3
+    }
+  },
+  {
+    "condition_id": "gaussian_blur__light__sharpening",
+    "image_type": "enhanced",
+    "degradation": "gaussian_blur",
+    "level": "light",
+    "enhancement_method": "sharpening",
+    "degradation_params": {
+      "kernel": 3
+    }
+  },
+  {
+    "condition_id": "gaussian_blur__medium__degraded",
+    "image_type": "degraded",
+    "degradation": "gaussian_blur",
+    "level": "medium",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "kernel": 7
+    }
+  },
+  {
+    "condition_id": "gaussian_blur__medium__unsharp_mask",
+    "image_type": "enhanced",
+    "degradation": "gaussian_blur",
+    "level": "medium",
+    "enhancement_method": "unsharp_mask",
+    "degradation_params": {
+      "kernel": 7
+    }
+  },
+  {
+    "condition_id": "gaussian_blur__medium__sharpening",
+    "image_type": "enhanced",
+    "degradation": "gaussian_blur",
+    "level": "medium",
+    "enhancement_method": "sharpening",
+    "degradation_params": {
+      "kernel": 7
+    }
+  },
+  {
+    "condition_id": "gaussian_blur__strong__degraded",
+    "image_type": "degraded",
+    "degradation": "gaussian_blur",
+    "level": "strong",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "kernel": 15
+    }
+  },
+  {
+    "condition_id": "gaussian_blur__strong__unsharp_mask",
+    "image_type": "enhanced",
+    "degradation": "gaussian_blur",
+    "level": "strong",
+    "enhancement_method": "unsharp_mask",
+    "degradation_params": {
+      "kernel": 15
+    }
+  },
+  {
+    "condition_id": "gaussian_blur__strong__sharpening",
+    "image_type": "enhanced",
+    "degradation": "gaussian_blur",
+    "level": "strong",
+    "enhancement_method": "sharpening",
+    "degradation_params": {
+      "kernel": 15
+    }
+  },
+  {
+    "condition_id": "color_cast__light__degraded",
+    "image_type": "degraded",
+    "degradation": "color_cast",
+    "level": "light",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "gains": [
+        1.05,
+        1.0,
+        0.95
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__light__rgb_balance",
+    "image_type": "enhanced",
+    "degradation": "color_cast",
+    "level": "light",
+    "enhancement_method": "rgb_balance",
+    "degradation_params": {
+      "gains": [
+        1.05,
+        1.0,
+        0.95
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__light__hsv_correction",
+    "image_type": "enhanced",
+    "degradation": "color_cast",
+    "level": "light",
+    "enhancement_method": "hsv_correction",
+    "degradation_params": {
+      "gains": [
+        1.05,
+        1.0,
+        0.95
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__light__lab_correction",
+    "image_type": "enhanced",
+    "degradation": "color_cast",
+    "level": "light",
+    "enhancement_method": "lab_correction",
+    "degradation_params": {
+      "gains": [
+        1.05,
+        1.0,
+        0.95
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__medium__degraded",
+    "image_type": "degraded",
+    "degradation": "color_cast",
+    "level": "medium",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "gains": [
+        1.15,
+        1.0,
+        0.85
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__medium__rgb_balance",
+    "image_type": "enhanced",
+    "degradation": "color_cast",
+    "level": "medium",
+    "enhancement_method": "rgb_balance",
+    "degradation_params": {
+      "gains": [
+        1.15,
+        1.0,
+        0.85
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__medium__hsv_correction",
+    "image_type": "enhanced",
+    "degradation": "color_cast",
+    "level": "medium",
+    "enhancement_method": "hsv_correction",
+    "degradation_params": {
+      "gains": [
+        1.15,
+        1.0,
+        0.85
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__medium__lab_correction",
+    "image_type": "enhanced",
+    "degradation": "color_cast",
+    "level": "medium",
+    "enhancement_method": "lab_correction",
+    "degradation_params": {
+      "gains": [
+        1.15,
+        1.0,
+        0.85
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__strong__degraded",
+    "image_type": "degraded",
+    "degradation": "color_cast",
+    "level": "strong",
+    "enhancement_method": "none",
+    "degradation_params": {
+      "gains": [
+        1.3,
+        1.0,
+        0.7
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__strong__rgb_balance",
+    "image_type": "enhanced",
+    "degradation": "color_cast",
+    "level": "strong",
+    "enhancement_method": "rgb_balance",
+    "degradation_params": {
+      "gains": [
+        1.3,
+        1.0,
+        0.7
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__strong__hsv_correction",
+    "image_type": "enhanced",
+    "degradation": "color_cast",
+    "level": "strong",
+    "enhancement_method": "hsv_correction",
+    "degradation_params": {
+      "gains": [
+        1.3,
+        1.0,
+        0.7
+      ]
+    }
+  },
+  {
+    "condition_id": "color_cast__strong__lab_correction",
+    "image_type": "enhanced",
+    "degradation": "color_cast",
+    "level": "strong",
+    "enhancement_method": "lab_correction",
+    "degradation_params": {
+      "gains": [
+        1.3,
+        1.0,
+        0.7
+      ]
+    }
+  }
+]

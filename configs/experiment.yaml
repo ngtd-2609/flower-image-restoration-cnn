@@ -1,0 +1,25 @@
+project_name: flower-image-restoration-cnn
+seed: 42
+image_size: 224
+batch_size: 32
+classes: [daisy, dandelion, roses, sunflowers, tulips]
+split:
+  method: stratified_group_k_fold
+  folds: 20
+  train_folds: 14
+  validation_folds: 3
+  test_folds: 3
+model:
+  architecture: MobileNetV2
+  weights: imagenet
+  include_top: false
+  dropout: 0.3
+  head_learning_rate: 0.001
+  fine_tune_learning_rate: 0.00001
+  fine_tune_layers: 30
+  freeze_batch_normalization: true
+  head_epochs: 15
+  fine_tune_epochs: 10
+selection_metric: macro_f1
+quality_metrics: [psnr, ssim, delta_e_2000, mean_brightness, rms_contrast, edge_preservation_ratio, histogram_distance]
+classification_metrics: [accuracy, macro_precision, macro_recall, macro_f1, weighted_f1]

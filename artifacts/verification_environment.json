@@ -1,0 +1,24 @@
+{
+  "purpose": "lightweight_source_and_document_verification_only",
+  "verified_at_utc": "2026-08-26",
+  "python": "3.12.13",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "Pillow": "12.3.0",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "PyYAML": "6.0.3",
+    "joblib": "1.5.3"
+  },
+  "unavailable": [
+    "tensorflow",
+    "streamlit",
+    "ruff",
+    "pytest",
+    "docker"
+  ],
+  "disclaimer": "This is not the FULL_RUN environment manifest. artifacts/environment.json must be generated together with the real checkpoint and final results."
+}

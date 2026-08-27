@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Submission metadata",
+  "type": "object",
+  "required": ["instructor", "group", "members", "submission_date"],
+  "properties": {
+    "instructor": {"type": "string", "minLength": 1},
+    "group": {"type": "string", "minLength": 1},
+    "members": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["name", "student_id"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "student_id": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "submission_date": {"type": "string", "format": "date"}
+  }
+}

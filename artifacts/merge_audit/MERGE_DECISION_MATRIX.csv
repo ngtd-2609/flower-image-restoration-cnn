@@ -1,0 +1,10 @@
+final_path,source_a,source_b,source_c,selected_source,selected_reason,elements_ported_from_a,elements_ported_from_b,elements_ported_from_c,conflict,refactor_required,validation_required
+src/,image_pipeline concepts,src modular,src modular older,B,strongest modular scientific implementation,error taxonomy,canonical code,none,API differences,yes,pytest/full-run
+streamlit_app.py,app.py,standalone Streamlit,frontend FastAPI client,B,one-process canonical architecture,UI comparison idea,direct src calls,selected wording,legacy HTTP,yes,AppTest/smoke
+scripts/validate_project.py,none,strict validator,basic validator,B+Final,widest coverage,none,base gates,document checks,false positive,yes,core/full-run/final
+docs/REPORT_FINAL.docx,report layout,academic content,best presentation,C+Final,best layout with B scientific depth,taxonomy,content,layout,stale metrics/admin,yes,render all pages
+docs/SLIDES_FINAL.pptx,visual storytelling,canonical narrative,best layout,C+Final,best template and final facts,selected visual flow,truth/status,layout,admin placeholders,yes,render all slides
+docs/ASSIGNMENT_FINAL.xlsx,none,formula workbook,best assignment structure,C+Final,preserve structure and correct semantic formulas,none,checks,layout,off-by-one formulas,yes,formula/value/render
+README.md,short overview,best canonical engineering,best deployment prose,B+C+Final,truthful tree and final metrics,concise framing,source of truth,readability,FastAPI vs standalone,yes,link/coherence scan
+results/final/,surrogate results excluded,evaluator source only,no CNN results,Final run,only real CNN/split/protocol evidence is admissible,none,evaluation implementation,none,incompatible provenance,yes,manifest/cardinality
+artifacts/canonical_facts.json,none,consistency seed,consistency seed,Final,single generated fact registry,none,contracts,admin layout,stale facts,yes,cross-artifact audit

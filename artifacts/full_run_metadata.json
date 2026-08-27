@@ -1,0 +1,14 @@
+{
+  "status": "FULL_RUN_COMPLETE",
+  "created_at_utc": "2026-08-27T08:44:20.412040+00:00",
+  "model_sha256": "54e76a3464d73672dabf823b4040ef67607c49861e2a7286ca233c138dbbc44d",
+  "test_split_sha256": "2fb65c2a8b52f50859c4e69ad4d363684bbea1997a1b8cff3f5069f597a85fc4",
+  "experiment_rows": 49,
+  "prediction_rows": 26950,
+  "per_class_rows": 245,
+  "statistical_test_rows": 66,
+  "quick_run": false,
+  "selection_split": "validation",
+  "deployment_status": "DEPLOY_READY_BUT_NOT_DEPLOYED",
+  "image_metric_protocol": "all images; deterministic pixel stride 4 (56x56 lattice at 224x224)"
+}

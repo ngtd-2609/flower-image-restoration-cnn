@@ -1,0 +1,24 @@
+{
+  "mode": "core",
+  "missing_core_files": [],
+  "split_counts": {
+    "train": 2571,
+    "validation": 549,
+    "test": 550
+  },
+  "split_checks": {
+    "train_validation_path_overlap": 0,
+    "train_validation_hash_overlap": 0,
+    "train_test_path_overlap": 0,
+    "train_test_hash_overlap": 0,
+    "validation_test_path_overlap": 0,
+    "validation_test_hash_overlap": 0
+  },
+  "experiment_condition_count": 49,
+  "standalone_streamlit": true,
+  "canonical_inventory_rows": 3670,
+  "readme_lines": 289,
+  "readme_broken_local_links": [],
+  "submission_ready": false,
+  "errors": []
+}

@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "inventory_3670": true,
+    "class_counts": true,
+    "split_counts": true,
+    "evaluation_state_truthful": true,
+    "model_checkpoint_hashed": true,
+    "canonical_members": true,
+    "office_files_exist": true,
+    "deployment_truthful": true,
+    "train_validation_path_disjoint": true,
+    "train_validation_hash_disjoint": true,
+    "train_test_path_disjoint": true,
+    "train_test_hash_disjoint": true,
+    "validation_test_path_disjoint": true,
+    "validation_test_hash_disjoint": true,
+    "condition_rows": true,
+    "prediction_rows": true,
+    "manifest_counts": true
+  },
+  "pass": true,
+  "evaluation": "FULL_RUN_COMPLETE",
+  "deployment": "DEPLOY_PENDING_USER_ACTION"
+}
