@@ -32,3 +32,10 @@ Thumbs.db
 # Generated bulk images
 data/degraded/
 data/enhanced/
+
+# Local handoff packages and report staging
+BAN_GIAO*/
+BAO_CAO_CAI_THIEN_VA_BAN_GIAO/
+tmp/
+.env.*
+!.env.example

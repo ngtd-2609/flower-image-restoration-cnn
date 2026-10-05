@@ -1,0 +1,8 @@
+
+# Preserve report/media bytes across Windows and Linux checkouts.
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.png binary
+*.keras binary

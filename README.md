@@ -5,6 +5,13 @@
 ![Experiment](https://img.shields.io/badge/Full%20run-49%2F49-success)
 ![License](https://img.shields.io/badge/License-MIT-6B7280)
 > Đánh giá độ bền vững của một **MobileNetV2 cố định** khi ảnh hoa bị suy giảm, đồng thời kiểm tra liệu các kỹ thuật xử lý ảnh cổ điển có phục hồi được chất lượng ảnh và hiệu năng phân loại hay không.
+## Bản cập nhật báo cáo
+Bản báo cáo hiện tại: [Word](docs/REPORT_REVISED.docx) và [PDF](docs/REPORT_REVISED.pdf), 40 trang, 22 hình, 16 bảng. PDF dạng ảnh 200 DPI, không có lớp văn bản tìm kiếm; dùng Word để chỉnh sửa. Hình và nguồn minh họa ở [figures/report_revised](figures/report_revised) và [nguồn ảnh](docs/NGUON_ANH_MINH_HOA.txt).
+Bản `REPORT_FINAL.*` và slide cũ được giữ để đối chiếu lịch sử; dùng `REPORT_REVISED.*` khi đọc kết quả đã sửa. Thông tin bìa và yêu cầu FastAPI so với Streamlit độc lập vẫn cần nhóm xác nhận; đây chưa phải xác nhận sẵn sàng nộp chính thức.
+Các gói bàn giao riêng thành viên, ZIP ảnh, môi trường local và file tạm không thuộc bản GitHub. Raw dataset cần đặt ở `data/flower_photos/` theo hướng dẫn bên dưới.
+
+Kiểm tra local ngày 05/10/2026: 25 unit test đạt, Ruff/compile đạt, validator FULL_RUN và notebook đạt; 74 hash manifest và metric của 49 điều kiện khớp. Checkpoint chạy được trên ba ảnh qua pipeline; chưa tái huấn luyện, đánh giá lại toàn bộ hoặc xác minh cloud. [Bằng chứng kiểm tra](artifacts/github_update_verification.json).
+
 ## Table of Contents
 - [Project Status](#project-status)
 - [Bài toán và mục tiêu](#bài-toán-và-mục-tiêu)

@@ -1,0 +1,34 @@
+{
+  "checked_date": "2026-10-05",
+  "manifest_files_verified": 74,
+  "conditions_metrics_recomputed": 49,
+  "prediction_rows": 26950,
+  "model_core_smoke_images": 3,
+  "model_core_smoke_records": [
+    {
+      "relative_path": "data/flower_photos/daisy/10172379554_b296050f82_n.jpg",
+      "predictions": {
+        "clean": "daisy",
+        "degraded": "daisy",
+        "enhanced": "daisy"
+      }
+    },
+    {
+      "relative_path": "data/flower_photos/daisy/102841525_bd6628ae3c.jpg",
+      "predictions": {
+        "clean": "daisy",
+        "degraded": "daisy",
+        "enhanced": "daisy"
+      }
+    },
+    {
+      "relative_path": "data/flower_photos/daisy/10993710036_2033222c91.jpg",
+      "predictions": {
+        "clean": "daisy",
+        "degraded": "daisy",
+        "enhanced": "daisy"
+      }
+    }
+  ],
+  "scope": "Existing results revalidated; real checkpoint core inference on three images. No retraining, full reevaluation or cloud deployment."
+}
