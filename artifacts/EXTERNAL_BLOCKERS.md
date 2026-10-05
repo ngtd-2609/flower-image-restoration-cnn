@@ -1,16 +1,7 @@
-# External blocker
+# Phần còn cần xác minh trên bản deploy
 
-## Public Streamlit deployment verification
+Đã có URL do chủ dự án xác nhận: [Streamlit demo](https://flower-image-restoration-cnn-td.streamlit.app/). Ngày 05/10/2026, kiểm tra HTTP qua phiên có cookie nhận 200 và HTML Streamlit. Không còn chặn vì thiếu URL hoặc chưa có hosting.
 
-Local application, model checkpoint, locked enhancement parameters, Dockerfile and deployment guide are complete. A public deployment is **not** claimed because this workspace has no user-authorized hosting account/repository action.
+Chưa xác minh: commit thực sự đang chạy, hash checkpoint trên cloud, ảnh chụp phiên ẩn danh, upload và dự đoán ảnh đơn/lô. Các mục này là giới hạn của bằng chứng kiểm tra, không có nghĩa ứng dụng chưa deploy.
 
-Evidence still required to close this gate:
-
-1. public HTTPS URL;
-2. deployed commit identifier;
-3. deployed model SHA-256 matching `models/model_metadata.json`;
-4. UTC verification time;
-5. screenshot from a signed-out/incognito browser session;
-6. successful single-image and batch smoke tests on the public URL.
-
-Until those items exist, canonical status remains `DEPLOY_READY_BUT_NOT_DEPLOYED` and strict `--require-final` is expected to fail only this external gate.
+Xem deployment_verification.json. Metadata thực nghiệm tháng 08 và báo cáo trước khi URL được cung cấp giữ trạng thái lịch sử; không dùng chúng để kết luận trạng thái deploy hiện tại.

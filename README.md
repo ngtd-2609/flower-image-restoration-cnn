@@ -5,6 +5,8 @@
 ![Experiment](https://img.shields.io/badge/Full%20run-49%2F49-success)
 ![License](https://img.shields.io/badge/License-MIT-6B7280)
 > Đánh giá độ bền vững của một **MobileNetV2 cố định** khi ảnh hoa bị suy giảm, đồng thời kiểm tra liệu các kỹ thuật xử lý ảnh cổ điển có phục hồi được chất lượng ảnh và hiệu năng phân loại hay không.
+**Demo trực tuyến:** [Mở ứng dụng Streamlit](https://flower-image-restoration-cnn-td.streamlit.app/)
+
 ## Bản cập nhật báo cáo
 Bản báo cáo hiện tại: [Word](docs/REPORT_REVISED.docx) và [PDF](docs/REPORT_REVISED.pdf), 40 trang, 22 hình, 16 bảng. PDF dạng ảnh 200 DPI, không có lớp văn bản tìm kiếm; dùng Word để chỉnh sửa. Hình và nguồn minh họa ở [figures/report_revised](figures/report_revised) và [nguồn ảnh](docs/NGUON_ANH_MINH_HOA.txt).
 Bản `REPORT_FINAL.*` và slide cũ được giữ để đối chiếu lịch sử; dùng `REPORT_REVISED.*` khi đọc kết quả đã sửa. Thông tin bìa và yêu cầu FastAPI so với Streamlit độc lập vẫn cần nhóm xác nhận; đây chưa phải xác nhận sẵn sàng nộp chính thức.
@@ -40,7 +42,7 @@ Kiểm tra local ngày 05/10/2026: 25 unit test đạt, Ruff/compile đạt, val
 | Statistical & error analysis | ✅ Complete | [`results/final/statistical_tests.csv`](results/final/statistical_tests.csv), [`results/final/error_analysis.csv`](results/final/error_analysis.csv) |
 | Notebook evidence | ✅ Executed | [`BTL_XuLyAnh_NhanDienHoa.ipynb`](BTL_XuLyAnh_NhanDienHoa.ipynb) |
 | Streamlit local source | ✅ Ready | [`streamlit_app.py`](streamlit_app.py) |
-| Public cloud deployment | ⚠️ Not deployed | [`artifacts/EXTERNAL_BLOCKERS.md`](artifacts/EXTERNAL_BLOCKERS.md) |
+| Public cloud deployment | Có bản deploy; HTTP 200 đã kiểm tra | [Streamlit demo](https://flower-image-restoration-cnn-td.streamlit.app/), [trạng thái kiểm tra](artifacts/deployment_verification.json) |
 **Nguồn sự thật về kết quả cuối:** `results/final/*`, `artifacts/full_run_metadata.json` và `models/model_metadata.json`. Một số tài liệu Markdown cũ được tạo trước full run vẫn còn câu chữ “pending”; chúng không được dùng để thay thế các artifact cuối có timestamp ngày 27/08/2026.
 ## Bài toán và mục tiêu
 CNN có thể giảm độ chính xác khi ảnh bị thiếu sáng, nhiễu, mờ hoặc lệch màu. Dự án giữ **cùng một MobileNetV2** cho mọi điều kiện để biến độc lập thực sự là loại/mức suy giảm và phương pháp restoration, thay vì thay đổi classifier theo từng trường hợp.
@@ -242,7 +244,7 @@ python scripts/validate_project.py --require-full-run
 python scripts/check_consistency.py
 ```
 Audit khi tạo README này chạy `pytest -q` và ghi nhận **24 passed, 1 skipped, 0 failed**. Notebook hiện có 29 cell, 12 code cell đã execute, 0 error output và có marker `FULL_RUN_COMPLETE`.
-CI đã được cấu hình tại [`.github/workflows/ci.yml`](.github/workflows/ci.yml) để cài dependency, lint, compile, chạy tests, validator, notebook check và Streamlit health smoke trên push/pull request; README không tuyên bố CI “passing” vì repository URL/run status chưa được cung cấp.
+CI đã được cấu hình tại [`.github/workflows/ci.yml`](.github/workflows/ci.yml) để cài dependency, lint, compile, chạy tests, validator, notebook check và Streamlit health smoke trên push/pull request; README không tuyên bố CI “passing” vì chưa kiểm tra kết quả run GitHub Actions hiện tại.
 ## Reproducibility
 - Global seed: **42**.
 - Class order: `daisy`, `dandelion`, `roses`, `sunflowers`, `tulips`.
@@ -266,10 +268,10 @@ CI đã được cấu hình tại [`.github/workflows/ci.yml`](.github/workflow
 | Full-run metadata | [`artifacts/full_run_metadata.json`](artifacts/full_run_metadata.json) |
 | Environment | [`artifacts/environment.json`](artifacts/environment.json) |
 ## Deployment
-Project hiện ở trạng thái **`DEPLOY_READY_BUT_NOT_DEPLOYED`**. Source Streamlit, checkpoint, locked params, Dockerfile và deployment guide đã có; chưa có public HTTPS URL, deployed commit, screenshot ẩn danh và verification artifact. Không có URL deploy giả trong README.
-Hướng dẫn: [`docs/STREAMLIT_DEPLOYMENT.md`](docs/STREAMLIT_DEPLOYMENT.md). External gate còn lại: [`artifacts/EXTERNAL_BLOCKERS.md`](artifacts/EXTERNAL_BLOCKERS.md).
+Ứng dụng đã được triển khai tại **[flower-image-restoration-cnn-td.streamlit.app](https://flower-image-restoration-cnn-td.streamlit.app/)** theo URL chủ dự án xác nhận ngày 05/10/2026. Kiểm tra HTTP bằng phiên có cookie nhận phản hồi 200 và HTML Streamlit. Chưa kiểm thử upload/dự đoán trên cloud hoặc đối chiếu commit/checkpoint đang chạy; kết quả smoke local không thay thế kiểm thử cloud.
+Hướng dẫn: [STREAMLIT_DEPLOYMENT.md](docs/STREAMLIT_DEPLOYMENT.md). Bằng chứng và phạm vi kiểm tra: [deployment_verification.json](artifacts/deployment_verification.json). Trạng thái deploy trong metadata thực nghiệm tháng 08 là thông tin lịch sử; trạng thái hiện tại lấy từ mục này.
 ## Limitations & Future Work
-**Limitations:** suy giảm hiện là synthetic; dataset chỉ có 5 lớp và mất cân bằng vừa; có một duplicate group khác nhãn; softmax confidence chưa calibration; letterbox padding có thể ảnh hưởng ảnh tỷ lệ cực đoan; enhancement đôi khi làm giảm F1; chưa có benchmark corruption đời thực và chưa có public deployment evidence.
+**Limitations:** suy giảm hiện là synthetic; dataset chỉ có 5 lớp và mất cân bằng vừa; có một duplicate group khác nhãn; softmax confidence chưa calibration; letterbox padding có thể ảnh hưởng ảnh tỷ lệ cực đoan; enhancement đôi khi làm giảm F1; chưa có benchmark corruption đời thực; kiểm thử chức năng trên cloud chưa hoàn tất.
 **Future work:** corruption thực, motion blur/JPEG/haze, tự động nhận dạng loại-mức suy giảm, adaptive enhancement, Grad-CAM, confidence calibration, ONNX/TFLite và đánh giá trên dataset lớn hơn. Mọi mở rộng nên giữ Test cuối độc lập và báo cáo chi phí tính toán cùng độ chính xác.
 ## Documentation
 - [`docs/DATA_CARD.md`](docs/DATA_CARD.md) — dữ liệu, duplicate, split và rủi ro.

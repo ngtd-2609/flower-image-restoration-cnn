@@ -1,5 +1,9 @@
 # Triển khai Streamlit standalone
 
+## Bản deploy hiện tại
+
+[Mở ứng dụng Streamlit](https://flower-image-restoration-cnn-td.streamlit.app/). URL được chủ dự án xác nhận ngày 05/10/2026; kiểm tra HTTP qua phiên có cookie trả 200. Chưa xác minh commit/checkpoint trên cloud hoặc kiểm thử upload/dự đoán. Xem [bằng chứng kiểm tra](../artifacts/deployment_verification.json).
+
 ## Kiến trúc chính thức
 
 `streamlit_app.py` gọi trực tiếp `src/` theo luồng: đọc ảnh trong bộ nhớ → tạo suy giảm → áp dụng tham

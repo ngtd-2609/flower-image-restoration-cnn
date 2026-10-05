@@ -1,0 +1,16 @@
+{
+  "url": "https://flower-image-restoration-cnn-td.streamlit.app/",
+  "status": "DEPLOYED_USER_CONFIRMED_HTTP_REACHABLE",
+  "user_confirmed_date": "2026-10-05",
+  "http_checked_at_utc": "2026-10-05T00:14:30.414197+00:00",
+  "http_status": 200,
+  "streamlit_html_detected": true,
+  "verification_method": "HTTP GET with cookie-enabled session, following redirects",
+  "commit": null,
+  "model_sha256": null,
+  "verified_at_utc": null,
+  "screenshot": null,
+  "single_image_cloud_tested": false,
+  "batch_cloud_tested": false,
+  "scope": "URL confirmed by project owner; page HTTP reachability checked. End-to-end cloud inference and deployed artifact identity not verified."
+}
