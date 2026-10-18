@@ -8,8 +8,8 @@
 **Demo trực tuyến:** [Mở ứng dụng Streamlit](https://flower-image-restoration-cnn-td.streamlit.app/)
 
 ## Bản cập nhật báo cáo
-Bản báo cáo hiện tại: [Word](docs/REPORT_REVISED.docx) và [PDF](docs/REPORT_REVISED.pdf), 40 trang, 22 hình, 16 bảng. PDF dạng ảnh 200 DPI, không có lớp văn bản tìm kiếm; dùng Word để chỉnh sửa. Hình và nguồn minh họa ở [figures/report_revised](figures/report_revised) và [nguồn ảnh](docs/NGUON_ANH_MINH_HOA.txt).
-Bản `REPORT_FINAL.*` và slide cũ được giữ để đối chiếu lịch sử; dùng `REPORT_REVISED.*` khi đọc kết quả đã sửa. Thông tin bìa và yêu cầu FastAPI so với Streamlit độc lập vẫn cần nhóm xác nhận; đây chưa phải xác nhận sẵn sàng nộp chính thức.
+Bản báo cáo hiện tại: [Word](docs/REPORT_REVISED.docx) và [PDF](docs/REPORT_REVISED.pdf), 44 trang, 22 hình, 16 bảng. [Slide hiện tại](docs/SLIDES_REVISED.pptx) có 27 trang chiếu. Bản ngày 18/10/2026 giữ 12 chương, mở rộng nguyên lý và đánh đổi của các kỹ thuật xử lý ảnh; MobileNetV2 cố định dùng để đánh giá tác động đến nhận diện. PDF dạng ảnh 200 DPI, không có lớp văn bản tìm kiếm; dùng Word để chỉnh sửa. Hình và nguồn minh họa ở [figures/report_revised](figures/report_revised) và [nguồn ảnh](docs/NGUON_ANH_MINH_HOA.txt).
+Dùng `REPORT_REVISED.*` và `SLIDES_REVISED.pptx` cho nội dung mới nhất. Các bản Office cũ đã được loại khỏi thư mục làm việc; có thể tra lịch sử Git khi cần. Thông tin bìa và yêu cầu FastAPI so với Streamlit độc lập vẫn cần nhóm xác nhận; đây chưa phải xác nhận sẵn sàng nộp chính thức.
 Các gói bàn giao riêng thành viên, ZIP ảnh, môi trường local và file tạm không thuộc bản GitHub. Raw dataset cần đặt ở `data/flower_photos/` theo hướng dẫn bên dưới.
 
 Kiểm tra local ngày 05/10/2026: 25 unit test đạt, Ruff/compile đạt, validator FULL_RUN và notebook đạt; 74 hash manifest và metric của 49 điều kiện khớp. Checkpoint chạy được trên ba ảnh qua pipeline; chưa tái huấn luyện, đánh giá lại toàn bộ hoặc xác minh cloud. [Bằng chứng kiểm tra](artifacts/github_update_verification.json).
@@ -277,8 +277,8 @@ Hướng dẫn: [STREAMLIT_DEPLOYMENT.md](docs/STREAMLIT_DEPLOYMENT.md). Bằng 
 - [`docs/DATA_CARD.md`](docs/DATA_CARD.md) — dữ liệu, duplicate, split và rủi ro.
 - [`docs/MODEL_CARD.md`](docs/MODEL_CARD.md) — kiến trúc và contract của MobileNetV2; phần trạng thái evaluation trong file này được tạo trước full run.
 - [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md) — câu hỏi nghiên cứu và protocol.
-- [`docs/REPORT_FINAL.pdf`](docs/REPORT_FINAL.pdf) / [`docs/REPORT_FINAL.docx`](docs/REPORT_FINAL.docx) — báo cáo.
-- [`docs/SLIDES_FINAL.pptx`](docs/SLIDES_FINAL.pptx) — slide thuyết trình.
+- [`docs/REPORT_REVISED.pdf`](docs/REPORT_REVISED.pdf) / [`docs/REPORT_REVISED.docx`](docs/REPORT_REVISED.docx) — báo cáo hiện tại.
+- [`docs/SLIDES_REVISED.pptx`](docs/SLIDES_REVISED.pptx) — slide thuyết trình hiện tại.
 - [`docs/PHAN_CONG_NHOM.md`](docs/PHAN_CONG_NHOM.md) — phân công nhóm.
 ## Project Team, Author & License
 ### Project Team

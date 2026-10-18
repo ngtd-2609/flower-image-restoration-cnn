@@ -1,16 +1,15 @@
 {
-  "page_count": 40,
+  "revision_date": "2026-10-18",
+  "page_count": 44,
   "blank_pages": [],
-  "docx_sha256": "6d4404b6246a29f7140efe3ffb613c3fe9e86354e62eed02ae4a78839c2da6c2",
-  "pdf_sha256": "03dd887932aa9a72ed6f5b2428f010ec781b783086e3565513bfa89023149e92",
-  "render_method": "Microsoft Word Page.EnhMetaFileBits; rasterized at 200 DPI with GDI PlayEnhMetaFile; PDF assembled from exact page images. WordOpenXML captured from same open document.",
-  "visual_review": "All 40 page images inspected; no clipped text, overlapping tables or missing figures observed",
-  "limitations": [
-    "PDF dạng ảnh 200 DPI, không có lớp văn bản tìm kiếm; Word ExportAsFixedFormat bị treo",
-    "Thông tin bìa chưa được xác nhận",
-    "FastAPI hay Streamlit standalone chưa được nhóm chốt",
-    "Không chạy lại training/inference hoặc triển khai"
-  ],
+  "figure_count": 22,
+  "table_count": 16,
+  "docx_sha256": "08f100a0a8bab8bdffc972dc4748da560f0d7307820978d17f7b2b0a21c2aa68",
+  "pdf_sha256": "d000d4dc8655d4cd07689b2570d4b8b81ade9bc2079a6c810997917e4beb95f6",
+  "all_table_cells_identical_to_previous_report": true,
+  "all_embedded_image_hashes_identical_to_previous_report": true,
+  "render_method": "Microsoft Word Page.EnhMetaFileBits; GDI PlayEnhMetaFile rasterization at 200 DPI; PDF assembled from reviewed page images of the same saved DOCX.",
+  "visual_review": "All 44 page images inspected across final render iterations; no clipped text, overlapping tables or missing figures observed.",
   "pages_visually_reviewed": [
     1,
     2,
@@ -51,7 +50,27 @@
     37,
     38,
     39,
-    40
+    40,
+    41,
+    42,
+    43,
+    44
   ],
-  "figure_count": 22
+  "slides": {
+    "path": "docs/SLIDES_REVISED.pptx",
+    "sha256": "f18b91195014f3b5f0b4c29db99b732259fdbb4afdc113b5fd1e710ade90690f",
+    "count": 27,
+    "package_integrity_findings": 0,
+    "layout_findings": 0,
+    "native_editable_charts": 1,
+    "native_editable_tables": 3,
+    "notes_slides": 27,
+    "native_verification": "Opened final validated PPTX in Microsoft PowerPoint, exported and visually inspected all 27 slides; affected slides re-rendered after image aspect-ratio correction."
+  },
+  "limitations": [
+    "PDF dạng ảnh 200 DPI, không có lớp văn bản tìm kiếm; Word ExportAsFixedFormat bị treo.",
+    "Thông tin hành chính trên bìa chưa được xác nhận.",
+    "Không chạy lại training, inference toàn bộ hoặc kiểm tra triển khai cloud trong lần sửa tài liệu này.",
+    "Giữ nguyên cách chọn tham số trên Validation theo Macro F1, SSIM rồi latency; không tuyên bố đã tối ưu trực tiếp chất lượng ảnh."
+  ]
 }

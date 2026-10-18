@@ -161,9 +161,9 @@ def full_run_checks(require_submission: bool = False) -> tuple[dict, list[str]]:
             "artifacts/app_smoke_test.json",
             "artifacts/deployment_verification.json",
             "configs/submission_metadata.json",
-            "docs/REPORT_FINAL.docx",
-            "docs/REPORT_FINAL.pdf",
-            "docs/SLIDES_FINAL.pptx",
+            "docs/REPORT_REVISED.docx",
+            "docs/REPORT_REVISED.pdf",
+            "docs/SLIDES_REVISED.pptx",
             "docs/ASSIGNMENT_FINAL.xlsx",
         ])
     missing = [path for path in required if not (ROOT / path).exists()]
@@ -353,7 +353,7 @@ def full_run_checks(require_submission: bool = False) -> tuple[dict, list[str]]:
             "24106898": "Trương Việt Thành",
         }
         visible_paths = [ROOT / "README.md", ROOT / "docs" / "DATA_CARD.md", ROOT / "docs" / "MODEL_CARD.md"]
-        visible_paths.extend([ROOT / "docs" / name for name in ("REPORT_FINAL.docx", "SLIDES_FINAL.pptx", "ASSIGNMENT_FINAL.xlsx")])
+        visible_paths.extend([ROOT / "docs" / name for name in ("REPORT_REVISED.docx", "SLIDES_REVISED.pptx", "ASSIGNMENT_FINAL.xlsx")])
         texts = []
         for path in visible_paths:
             if not path.exists():

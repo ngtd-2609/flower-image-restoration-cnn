@@ -27,7 +27,7 @@ def main() -> None:
     final_manifest_path = ROOT / "results/final/manifest.json"
     full_complete = final_manifest_path.exists() and metadata.get("status") == "FULL_RUN_COMPLETE"
     paths = [ROOT / "README.md", ROOT / "docs/DATA_CARD.md", ROOT / "docs/MODEL_CARD.md",
-             ROOT / "docs/REPORT_FINAL.docx", ROOT / "docs/SLIDES_FINAL.pptx", ROOT / "docs/ASSIGNMENT_FINAL.xlsx"]
+             ROOT / "docs/REPORT_REVISED.docx", ROOT / "docs/SLIDES_REVISED.pptx", ROOT / "docs/ASSIGNMENT_FINAL.xlsx"]
     texts = [p.read_text(encoding="utf-8") if p.suffix == ".md" else office_text(p) for p in paths if p.exists()]
     joined = "\n".join(texts); compact = re.sub(r"\s+", "", joined)
     checks = {
