@@ -1,57 +1,11 @@
-# Triển khai Streamlit standalone
+# Ứng dụng Streamlit
 
-## Bản deploy hiện tại
+Demo: [flower-image-restoration-cnn-td.streamlit.app](https://flower-image-restoration-cnn-td.streamlit.app/).
 
-[Mở ứng dụng Streamlit](https://flower-image-restoration-cnn-td.streamlit.app/). URL được chủ dự án xác nhận ngày 05/10/2026; kiểm tra HTTP qua phiên có cookie trả 200. Chưa xác minh commit/checkpoint trên cloud hoặc kiểm thử upload/dự đoán. Xem [bằng chứng kiểm tra](../artifacts/deployment_verification.json).
+Chạy cục bộ từ thư mục gốc bằng `streamlit run streamlit_app.py` sau khi cài dependency. Ứng dụng nạp checkpoint trực tiếp, hỗ trợ một ảnh hoặc batch tối đa 20 ảnh JPEG/PNG.
 
-## Kiến trúc chính thức
+Repo chứa các tệp cần cho triển khai: `streamlit_app.py`, `requirements.txt`, `.python-version`, `models/`, `configs/locked_enhancement_params.json` và `results/final/manifest.json`. Raw dataset không cần cho suy luận.
 
-`streamlit_app.py` gọi trực tiếp `src/` theo luồng: đọc ảnh trong bộ nhớ → tạo suy giảm → áp dụng tham
-số enhancement đã khóa trên Validation → chuẩn hóa thống nhất → một lần batch inference cho ảnh gốc,
-suy giảm và sau xử lý. Ứng dụng không cần dịch vụ HTTP trung gian hoặc cấu hình liên dịch vụ.
+Hồ sơ tại `artifacts/deployment_verification.json` ghi nhận trang trả HTTP 200 ngày 05/10/2026. Hồ sơ chưa xác nhận commit đang chạy, checksum model hoặc suy luận một ảnh và batch trên cloud.
 
-## Chạy cục bộ
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run streamlit_app.py
-```
-
-Trước khi chạy, phải có:
-
-- `models/mobilenetv2_flowers.keras` từ notebook `FULL_RUN`;
-- `configs/locked_enhancement_params.json` từ Validation tuning;
-- `models/class_names.json` và `models/model_metadata.json` khớp checkpoint.
-
-Nếu thiếu model/config, giao diện chỉ báo trạng thái và không tạo dự đoán thay thế.
-
-## Docker một dịch vụ
-
-```bash
-docker build -t flower-restoration-streamlit .
-docker run --rm -p 8501:8501 flower-restoration-streamlit
-```
-
-Health endpoint nội bộ của Streamlit: `http://localhost:8501/_stcore/health`.
-
-## Streamlit Community Cloud
-
-1. Push repository đã nghiệm thu lên GitHub của nhóm.
-2. Chọn **Create app**, repository/branch tương ứng và entrypoint `streamlit_app.py`.
-3. Dùng Python 3.11 và dependency tại `requirements.txt`.
-4. Phân phối checkpoint bằng Git LFS hoặc release/storage có URL phiên bản cố định và checksum; không
-   dùng URL tạm hoặc công khai secret.
-5. Kiểm tra ở phiên ẩn danh: tải trang, model ready, upload hợp lệ, file lỗi, pipeline và reload.
-6. Chỉ sau deploy thật mới ghi URL/screenshot vào `artifacts/deployment_verification.json` và
-   `figures/deployment/`. Bản hiện tại không bịa các bằng chứng này.
-
-## Checklist local smoke
-
-```bash
-python -m compileall -q src app_components streamlit_app.py
-python -m unittest discover -s tests -v
-python scripts/validate_project.py
-streamlit run streamlit_app.py --server.headless=true
-```
+Khi kiểm thử bản triển khai, đối chiếu kết quả một ảnh và batch với bản cục bộ dùng cùng checkpoint; kiểm tra nhãn, xác suất và ảnh sau xử lý.

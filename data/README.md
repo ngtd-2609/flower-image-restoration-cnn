@@ -11,4 +11,4 @@ data/flower_photos/
 └── tulips/
 ```
 
-Notebook kiểm tra toàn bộ kho ảnh, ghi 3.668 ảnh hợp lệ cùng 2 ảnh lỗi, SHA-256 duplicate và phân bố lớp trước khi huấn luyện.
+Inventory ghi nhận 3.670 ảnh hợp lệ và 0 ảnh hỏng. Xem `data/inventory.csv`, `results/data_validation.json` và `artifacts/data_audit.json` để đối chiếu kích thước, nhãn và SHA-256.

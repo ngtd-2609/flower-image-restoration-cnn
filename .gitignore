@@ -39,3 +39,8 @@ BAO_CAO_CAI_THIEN_VA_BAN_GIAO/
 tmp/
 .env.*
 !.env.example
+
+# Local validation output
+artifacts/project_validation.json
+artifacts/cross_artifact_consistency.json
+artifacts/app_smoke_test.json

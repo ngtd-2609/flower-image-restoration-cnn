@@ -39,9 +39,7 @@ degraded–enhanced quan trọng. Tương quan Pearson/Spearman không chứng m
 
 ## Trạng thái run
 
-`image_quality_results_49_conditions.csv` đã được chạy bằng pipeline ảnh trên mẫu Test. Các cột nhận diện
-không được thêm giả. Sau `FULL_RUN`, `results/final/condition_metrics.csv` phải có 49 dòng cùng
-`predictions.csv`, metric từng lớp, kiểm định thống kê và confusion matrices; validator sẽ fail nếu thiếu.
+Lần chạy đầy đủ được lưu trong `results/final/`: 49 dòng metric, 26.950 dự đoán, 245 dòng metric từng lớp, 66 dòng kiểm định và 49 ma trận nhầm lẫn. `manifest.json` ghi checksum; `artifacts/full_run_metadata.json` ghi cấu hình và thời gian chạy.
 
 ## Tái lập
 

@@ -7,9 +7,7 @@ từng điều kiện, không ensemble và không có surrogate fallback.
 
 ## Trạng thái
 
-**FULL_RUN_TRAINED — EVALUATION_PENDING.** Checkpoint `models/mobilenetv2_flowers.keras` đã huấn luyện
-đủ 15 epoch head + 10 epoch fine-tune, có SHA-256 và đã load/suy luận trong process mới. Các metric
-full 49, latency và thống kê vẫn để trống tới khi người dùng chạy GPU và validator full PASS.
+**FULL_RUN_COMPLETE.** Checkpoint đã huấn luyện 15 epoch head và 10 epoch fine-tune. Kết quả đánh giá 49 điều kiện trên 550 ảnh Test được lưu tại `results/final/`; checksum checkpoint và split được lưu trong metadata và manifest.
 
 ## Kiến trúc
 
@@ -73,9 +71,7 @@ cờ run mode. Test chỉ chạy sau khi khóa.
 
 ## Kết quả
 
-Chưa có kết quả full 49 hợp lệ trong gói hiện tại. Không dùng số smoke. Sau full evaluation, phần này phải
-được sinh từ `results/final/condition_metrics.csv`, `per_class_metrics.csv` và
-`statistical_tests.csv`, đồng thời đồng bộ với Word/PPTX.
+Trên ảnh sạch, Accuracy đạt **90,18%**, Macro F1 đạt **90,20%**. Chi tiết từng điều kiện nằm trong `results/final/condition_metrics.csv`, metric từng lớp trong `per_class_metrics.csv`, và kiểm định trong `statistical_tests.csv`.
 
 ## Kiểm tra trước khi phát hành
 
